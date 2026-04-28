@@ -472,3 +472,5 @@ chmod +x \~/.claude/scripts/session-cleanup.sh
 
 
 alias 快捷鍵：一鍵進入專案 + No Flicker 模式
+
+markitdown安裝
