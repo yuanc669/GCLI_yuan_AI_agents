@@ -148,6 +148,10 @@ MCP確認
 並將Supabase修改為使用Firebase  不留Supabase
 
 
+上傳至guthub
+ 目前尚未設定遠端儲存庫。請提供您的 GitHub 儲存庫 URL（例如
+  https://github.com/yuanc669/GCLI_yuan_AI_agents.git），我將為您完成連結與上傳作業。
+
 
   完整工作架構與 Skill 地圖     
                                                                                            一、四域架構                                                                                                                                                                    
