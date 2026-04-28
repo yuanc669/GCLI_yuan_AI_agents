@@ -14,7 +14,7 @@
 | **Google Calendar** | 查詢/建立/更新行程 | |
 | **Google Drive** | 搜尋/讀取檔案 | |
 | **Obsidian** | 讀寫筆記、標籤管理 | 維護 `secondgrain/` |
-| **Supabase** | 資料庫查詢與管理 | |
+| **Firebase** | 資料庫查詢與管理 | |
 | **NotebookLM** | 知識庫問答、Podcast 生成 | |
 
 ## 三、完整 Skill 清單
