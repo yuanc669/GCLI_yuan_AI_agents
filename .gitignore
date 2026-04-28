@@ -1,0 +1,9 @@
+venv/
+.env
+000_Config/.env
+__pycache__/
+.DS_Store
+# Google Drive 系統檔
+Icon
+.tmp.*
+~$*
