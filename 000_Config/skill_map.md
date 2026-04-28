@@ -17,6 +17,8 @@
 ## 📧 秘書域（200_Secretary）
 | Skill | 功能 | 流程 |
 | :--- | :--- | :--- |
+| `/email-sync` | 同步 Gmail | 搜尋未讀/待辦並提取行動項 |
+| `/calendar-sync`| 同步行事曆 | 讀取 7 天行程並校對衝突 |
 | `/email-action` | 提取行動項 | 寫入 `_inbox/tasks.md` |
 | `/email-reply` | 起草郵件 | 寫入 `200_Secretary/drafts/` |
 | `/meeting-note` | 會議整理 | 生成 Action Items 表格 |
