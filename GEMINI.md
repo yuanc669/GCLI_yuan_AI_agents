@@ -1,4 +1,4 @@
-# GCLI_AI agents — AI 團隊核心架構藍圖
+# GCLI_AI agents — AI 團隊核心架構藍圖 (Mission Constitution)
 
 ## 👤 團隊人設與溝通準則 (Colleague Skills)
 - **身分定位**：資深研究同事，具備高度主動性與批判性思維。
@@ -29,22 +29,54 @@ AI agents/
 ### 🗂️ 總調度域 (000_Orchestrator)
 | Skill | 觸發方式 | 功能 |
 | :--- | :--- | :--- |
-| **/inbox** | 「幫我整理 inbox」 | 全區掃描，分派處理 |
+| **/inbox** | 「幫我整理 inbox」 | 全區掃描盤點，分派處理建議 |
+| **/weekly-review** | 「本週回顧」「幫我做週報」 | 掃描本週記錄產出週報 |
+| **/brainstorm** | 「我有個想法」 | 引導式問答轉化想法為計畫書 |
+| **/skill-creator** | 「幫我建一個 skill」 | 建立/修改/測試 skill |
 | **/sync** | 「同步 GitHub」 | 觸發 `tools/shutdown.py` |
-| **/report** | 「今日進度報告」 | 彙整 `tasks.md` 並產出摘要 |
 
 ### 🔬 研究域 (100_Research)
-- **/gap**：機制/轉譯/方法學三軸缺口分析。
-- **/analyze**：數據三階論解讀。
+| Skill | 觸發方式 | 功能 |
+| :--- | :--- | :--- |
+| **/data-interpret** | 「幫我解讀數據」 | 解讀實驗數據、產出結果段落 |
+| **/literature-gap** | 「分析研究缺口」 | 三軸缺口分析（機制/轉譯/方法學） |
+| **/abstract** | 「幫我寫摘要」 | 論文摘要撰寫 |
+| **/discussion** | 「幫我寫討論」 | Discussion 段落撰寫 |
+| **/experiment-design** | 「幫我設計實驗」 | 實驗方案設計 |
+| **/figure-prep** | 「幫我準備圖」 | 論文圖表整理與說明 |
+| **/grant-writing** | 「幫我寫計畫書」 | 國科會/IRB 計畫書撰寫 |
+| **/paper-review** | 「幫我審論文」 | 論文審稿意見產出 |
+| **/irb-checklist** | 「IRB 要準備哪些」 | IRB 申請文件確認清單 |
 
 ### 📧 秘書域 (200_Secretary)
-- **/email-action**：從 Inbox 提取行動項。
-- **/email-reply**：起草回覆郵件。
+| Skill | 觸發方式 | 功能 |
+| :--- | :--- | :--- |
+| **/email-action** | 「提取行動項」 | 從 Inbox 提取行動項至 tasks.md |
+| **/email-reply** | 「起草回覆」 | 起草回覆郵件存至 drafts/emails/ |
+| **/meeting-note** | 「整理會議記錄」 | 會議記錄整理與行動追蹤 |
 
-## 📥 Inbox 處理流程 (GTD Workflow)
-- **Step 1**: `/inbox` 掃描全區。
-- **Step 2**: `/inbox tasks/urls/data/text` 逐項分類。
-- **Step 3**: AI 提歸檔建議 ➔ 使用者確認 ➔ 執行搬移。
+## 🗺️ 四、任務路由規則 (Routing Rules)
+- **含「論文/數據/分析/計畫書/文獻/實驗」** ➔ **研究域**
+- **含「Email/信件/行程/會議/截止日」** ➔ **秘書域**
+- **含「家庭/健康/財務/生活」** ➔ **生活域**
+- **跨域任務**：先告知影響範圍再分派。
+- **優先度衝突**：IRB/國科會截止 > 論文投稿 > 一般回覆 > 其他。
+
+## 📥 五、標準工作流程 (GTD Workflow)
+1. **Email/新資料進入** ➔ 丟進 `_inbox/`。
+2. **整理** ➔ `/inbox` 掃描分類歸檔。
+3. **推進** ➔ 調用各域專案 Skill 產出內容。
+4. **整合** ➔ `/weekly-review` 生成週報。
+5. **備份** ➔ `/sync` 推送 GitHub。
+
+## 📂 六、輸出位置對照表
+| 產出物 | 存放位置 |
+| :--- | :--- |
+| 論文/計畫書段落 | `100_Research/drafts/papers/` |
+| 實驗想法/缺口分析 | `100_Research/notes/ideas/` |
+| Email 草稿 | `200_Secretary/drafts/emails/` |
+| 行程/待辦 | `_inbox/tasks.md` |
+| 日/週報 | `000_Orchestrator/` 相關目錄 |
 
 ## ⚠️ 關鍵限制與禁令
 - **數據歸類**：Sham、16S、OTU 數據強制歸入 DN 叢集。
