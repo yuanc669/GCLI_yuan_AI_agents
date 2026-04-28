@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "歡迎.md",
+                "file": "Clippings/‎Google Gemini.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "歡迎"
-            }
-          },
-          {
-            "id": "97a8731a1c1576e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Powershell Step1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Powershell Step1"
+              "title": "‎Google Gemini"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "204ccfb77fb0af3c",
@@ -195,13 +180,23 @@
               "icon": "lucide-list",
               "title": "Powershell Step1 的大綱"
             }
+          },
+          {
+            "id": "ea736964b6661904",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,14 +206,26 @@
       "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
-      "bases:建立新的 base": false
+      "bases:建立新的 base": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "97a8731a1c1576e8",
+  "active": "11ea2f099d39a32a",
   "lastOpenFiles": [
-    "GCLI_yuan_AI_agents/工作筆記.md",
-    "Powershell Step1.md",
     "歡迎.md",
+    "Clippings/‎Google Gemini.md",
+    "Clippings",
+    "未命名.base",
+    "Powershell Step1.md",
+    "GCLI_yuan_AI_agents/工作筆記.md",
     "GCLI_yuan_AI_agents"
   ]
 }
