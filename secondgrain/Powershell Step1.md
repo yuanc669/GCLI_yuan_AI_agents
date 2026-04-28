@@ -16,10 +16,10 @@ mkdir 400_Data 400_Data/DN 400_Data/UUO
 # 建立初始控制文件
 touch _inbox/tasks.md _inbox/urls.md
 ```   
-AIzaSyAg5R0fbn7fGHmr_4UzwWl4Qmi_QSbj_S4
+YOUR_GEMINI_API_KEY_HERE
 
 ```
-GEMINI_API_KEY=AIzaSyAg5R0fbn7fGHmr_4UzwWl4Qmi_QSbj_S4
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
 APP_ID=ai-team-core-001
 ROOT_PATH="G:/我的雲端硬碟/GCLI_AI agents"
 OBSIDIAN_VAULT_PATH="你的_Obsidian_Vault_G:\我的雲端硬碟\GCLI_yuan_AI agents\secondgrain"
