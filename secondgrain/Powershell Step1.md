@@ -298,3 +298,173 @@ MCP確認
 https://github.com/yuanc669/ai-research-skills
 https://github.com/yuanc669/colleague-skill
 評估是否適合整合至工作架構
+
+
+在 Obsidian vault 建對應資料夾 + 工作筆記
+```bash
+mkdir -p "<vault路徑>/<總資料夾名>"
+```
+建立 `<vault路徑>/<總資料夾名>/工作筆記.md`：
+```markdown
+# <總資料夾名> 工作筆記
+
+> 📌 進度日誌（變動快）。專案藍圖請看 GDrive 端的 `CLAUDE.md`。
+> 進度只在這裡記錄，避免雙寫漂移。
+
+## ⏯️ 上次做到哪
+
+\*\*最後動作\*\*：（剛建好總專案、還沒做工具）
+\*\*所在 repo\*\*：\[<repo名>](https://github.com/<你的帳號>/<repo名>)
+
+## 🛠️ 工具清單
+
+（尚無，待加）
+
+## 🗓️ 最近更動紀錄
+
+| 日期 | 變更摘要 | GDrive | Obsidian | GitHub |
+|------|----------|--------|----------|--------|
+| <今天日期> | 初始化班級工具總專案 | ✅ | ✅ | ✅ |
+
+## 🕳️ 踩坑筆記
+
+（之後遇到坑就記在這）
+```
+---
+安裝 /收工 skill
+步驟 5：建立 SKILL.md
+```bash
+mkdir -p \~/.claude-skills/shutdown
+```
+在 `\~/.claude-skills/shutdown/SKILL.md` 建立以下內容：
+````markdown
+---
+name: shutdown
+description: 收工同步助手。當使用者說「收工」、「結束了」、「準備換電腦」、「該同步的同步」、「先到這裡」等任何要結束工作並進行三方同步的請求時，請一定要使用此技能。本技能會智能更新 Obsidian 工作筆記、git commit + push GitHub。
+---
+
+# 收工同步助手
+
+對話結束前，把今天的工作完整保存到三個家：
+- \*\*GDrive\*\*：自動同步（不用管）
+- \*\*Obsidian 工作筆記\*\*：智能更新「上次做到哪」+「最近更動紀錄」
+- \*\*GitHub\*\*：commit + push 本 repo 變動
+
+## 收工 SOP（依序執行）
+
+### 步驟 1：盤點今天做了什麼
+從對話歷史摘要：完成的檔案、決策、踩到的新坑。
+
+### 步驟 2：找到工作目錄與工作筆記
+- 當前 GDrive 工作目錄：`$PWD`（或從對話脈絡推斷）
+- Obsidian 工作筆記：`<vault>/<同名資料夾>/工作筆記.md`
+- 若 vault 沒對應資料夾 → 提醒使用者，但仍進行 GitHub 同步
+
+### 步驟 3：更新 Obsidian 工作筆記
+- 「⏯️ 上次做到哪」段：最後動作、完成的檔案、對話脈絡
+- 「🗓️ 最近更動紀錄」表格最後加一行：今天日期 + 摘要 + ✅✅✅
+- 「🕳️ 踩坑筆記」（若有新坑）：依分類加進去
+
+### 步驟 4：Git commit + push
+```bash
+cd "<工作目錄>"
+git config windows.appendAtomically false
+git add <今天動到的檔案，不要 add .claude/>
+git commit -m "<今天工作摘要的 commit message>"
+git push origin <branch>
+```
+
+commit message 寫法：
+- 標題行：「動詞 + 對象」
+- 正文：3-5 條 bullet 描述變動 + 為什麼
+
+### 步驟 5：報告同步狀態
+給使用者一個三勾表格：
+
+| 平台 | 動到的檔案 | 狀態 |
+|------|----------|------|
+| GDrive | ... | ✅（自動） |
+| Obsidian | 工作筆記更新 | ✅ |
+| GitHub | commit + push | ✅ |
+
+## 不該做的事
+- ❌ 對「沒實質進度」的對話也跑同步（例：使用者只是問問題沒改檔）
+- ❌ 把 `.claude/settings.local.json`、`.claude/worktrees/` commit 進去
+- ❌ commit message 寫「更新」、「修改」這種沒資訊的字
+````
+步驟 5.1：重啟 Claude Code 讓 skill 載入
+🖐️ 手動操作：完全關閉 Claude Code 桌面版，再重新開啟。
+驗證：對 Claude 說「收工」，看是否自動觸發 SOP。如果觸發，✅ 完成。
+---
+步驟 5.5（選配）：要不要裝「忘記打收工的安全網」？
+🖐️ 詢問使用者：「要不要也裝 SessionEnd hook？這是『你忘記說收工、直接關 Claude Code 時，會自動做 git commit 備份』的安全網。」
+不要：跳到階段四
+要：繼續
+5.5.1 建立 session-cleanup.sh
+```bash
+mkdir -p \~/.claude/scripts
+```
+在 `\~/.claude/scripts/session-cleanup.sh` 建立：
+```bash
+#!/bin/bash
+# SessionEnd 安全網：對話結束時若 GDrive 內 repo 還有未提交變更，自動 commit + push
+
+LOG\_FILE="$HOME/.claude/scripts/session-cleanup.log"
+log() { echo "\[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> "$LOG\_FILE"; }
+
+INPUT=$(cat 2>/dev/null || echo "")
+WORKDIR=$(echo "$INPUT" | python -c "import sys, json; d=json.load(sys.stdin); print(d.get('cwd', ''))" 2>/dev/null)
+\[ -z "$WORKDIR" ] \&\& WORKDIR="$PWD"
+
+log "========== SessionEnd 觸發 =========="
+log "工作目錄：$WORKDIR"
+
+# 只處理 GDrive 內 repo
+case "$WORKDIR" in
+    \*雲端硬碟\*) ;;
+    \*"My Drive"\*) ;;
+    \*) log "  → 非 GDrive 目錄，跳過"; exit 0 ;;
+esac
+
+cd "$WORKDIR" || exit 0
+\[ -d ".git" ] || exit 0
+
+git config windows.appendAtomically false 2>/dev/null
+git add -u 2>/dev/null
+
+if git diff --cached --quiet; then
+    log "  → 無 modified tracked 檔案，跳過"
+    exit 0
+fi
+
+REPO\_NAME=$(basename "$WORKDIR")
+git commit -m "\[SessionEnd 自動保存] $(date +'%Y-%m-%d %H:%M')
+
+對話結束時 SessionEnd hook 自動保存。詳細工作摘要請查 Obsidian 工作筆記：$REPO\_NAME/工作筆記.md" >/dev/null 2>\&1
+
+git push origin HEAD >/dev/null 2>\&1
+log "  ✅ 已 commit + push"
+```
+設可執行：
+```bash
+chmod +x \~/.claude/scripts/session-cleanup.sh
+```
+5.5.2 編輯 settings.json 加 hook
+修改 `\~/.claude/settings.json`，加入 `hooks` 段（若已有 hooks 段，把 SessionEnd 加進去）：
+```json
+{
+  "hooks": {
+    "SessionEnd": \[
+      {
+        "hooks": \[
+          {
+            "type": "command",
+            "command": "bash \~/.claude/scripts/session-cleanup.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+> 💡 兩者\*\*不衝突\*\*：你正常打「收工」→ skill 接手；忘記打 → hook 接手做純備份。
