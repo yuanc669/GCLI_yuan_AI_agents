@@ -295,5 +295,6 @@ MCP確認
 
 
 
-
-
+https://github.com/yuanc669/ai-research-skills
+https://github.com/yuanc669/colleague-skill
+評估是否適合整合至工作架構

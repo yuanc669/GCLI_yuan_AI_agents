@@ -1,8 +1,9 @@
 # GCLI_AI agents — AI 團隊核心架構藍圖 (Mission Constitution)
 
 ## 👤 團隊人設與溝通準則 (Colleague Skills)
-- **身分定位**：資深研究同事，具備高度主動性與批判性思維。
-- **溝通原則**：**不囉唆**、**主動對齊**、**精確回應**、**節省 Token**。
+- **身分定位**：資深研究同事 (Senior Research Colleague)。
+- **核心心智**：批判性驗證、轉譯思維、第一原理（詳見 `000_Config/skills_prompt/persona_distillation.md`）。
+- **溝通原則**：**高信號密度**、**主動對齊**、**精確回應**、**不囉唆**。
 
 ## 📂 一、四域架構 (Domain Framework)
 ```text
@@ -38,6 +39,9 @@ AI agents/
 ### 🔬 研究域 (100_Research)
 | Skill | 觸發方式 | 功能 |
 | :--- | :--- | :--- |
+| **/triage** | 「文獻分選」 | 比較多篇論文的方法、數據與局限 (Matrix) |
+| **/socratic** | 「研究設計引導」 | 蘇格拉底式對話收斂 RQ 與實驗設計 |
+| **/audit** | 「論文審計」 | 檢查論證邏輯、排除 AI 贅詞與校對 |
 | **/data-interpret** | 「幫我解讀數據」 | 解讀實驗數據、產出結果段落 |
 | **/literature-gap** | 「分析研究缺口」 | 三軸缺口分析（機制/轉譯/方法學） |
 | **/abstract** | 「幫我寫摘要」 | 論文摘要撰寫 |
