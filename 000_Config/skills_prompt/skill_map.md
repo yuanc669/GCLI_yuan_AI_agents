@@ -1,39 +1,42 @@
-# AI 團隊技能地圖 (Master Skill Map)
+# GCLI_AI agents — 完整工作架構與 Skill 地圖
 
-## 一、四域架構 (Core Domains)
+## 一、四域架構 (The 4-Domain Framework)
 - **000_Orchestrator**：總調度（跨域協調、記憶整合、進度報告）。
 - **100_Research**：研究團隊（學術論文、實驗數據、計畫書撰寫）。
 - **200_Secretary**：秘書團隊（Email 處理、行程管理、會議記錄）。
-- **300_Life**：生活團隊（家庭庶務、財務管理、健康追蹤）。
-- **_inbox**：統一收件區。
+- **300_Life**：生活團隊（家庭事務、財務管理、健康追蹤）。
+- **_inbox**：統一收件區（所有外部輸入的緩衝與分類入口）。
 
-## 二、MCP 工具整合表
-| 工具 | 功能 | 狀態 |
+## 二、已整合工具 (MCP Integration)
+| 工具 | 功能說明 | 限制/原則 |
 | :--- | :--- | :--- |
-| **Gmail** | 搜尋/讀信、建草稿（需人工確認） | 整合預備 |
-| **Google Calendar** | 查詢/建立/更新行程 | 整合預備 |
-| **Google Drive** | 搜尋/讀取雲端檔案 | 已連線 (透過 GCLI) |
-| **Obsidian** | 讀寫筆記、管理 Frontmatter | 已連線 (G:/我的雲端硬碟/...) |
-| **Supabase** | 資料庫查詢與管理 | 待配置 |
-| **NotebookLM** | 知識庫建立、AI 問答、Podcast 生成 | 已連線 (MCP Server) |
+| **Gmail** | 搜尋/讀信、起草 Email | 僅限草稿，不自動發送 |
+| **Calendar** | 查詢/建立/更新行程 | 寫入前需確認時間衝突 |
+| **Drive** | 搜尋、讀取、分析雲端檔案 | 嚴禁修改原始檔案 |
+| **Obsidian** | 讀寫筆記、標籤管理 | 維持 frontmatter 完整 |
+| **Supabase** | 資料庫查詢與管理 | 結構化數據持久化 |
+| **NotebookLM** | 知識庫建立、AI 問答 | 跨文件深度綜述 |
 
-## 三、Skill 指令清單
+## 三、Skill 清單 (Skill Map)
 
 ### 🗂️ 總調度域 (000_Orchestrator)
-- `/inbox`：全區掃描，分派處理。
-- `/sync`：執行 `tools/shutdown.py` 同步 GitHub。
-- `/report`：日/週報生成。
+| Skill | 觸發方式 | 功能描述 |
+| :--- | :--- | :--- |
+| `/inbox` | 「整理 inbox」 | 全區掃描盤點，分派處理建議 |
+| `/sync` | 「收工/同步」 | 觸發 `tools/shutdown.py` 進行 Git 同步 |
+| `/report` | 「進度報告」 | 生成日/週報，總結各域狀態 |
 
 ### 🔬 研究域 (100_Research)
-- `/gap`：三軸缺口分析 (Mechanism/Translational/Methodology)。
-- `/analyze`：三階數據解讀 (結果 -> 脈絡 -> 推論)。
-- `/lit-review`：標準學術綜述撰寫。
+| Skill | 觸發方式 | 功能描述 |
+| :--- | :--- | :--- |
+| `/gap` | 「分析缺口」 | 執行機制/轉譯/方法學三軸分析 |
+| `/analyze` | 「解讀數據」 | 執行結果->脈絡->推論三階解讀 |
+| `/lit-review` | 「文獻綜述」 | 按照學術規範撰寫綜述摘要 |
 
 ### 📧 秘書域 (200_Secretary)
-- `/email-action`：提取郵件行動項至 `tasks.md`。
-- `/email-reply`：起草回覆。
-- `/meeting-note`：結構化會議記錄。
+| Skill | 觸發方式 | 功能描述 |
+| :--- | :--- | :--- |
+| `/email-action` | 「提取行動項」 | 從郵件內容抓取任務至 `tasks.md` |
+| `/email-reply` | 「草擬回覆」 | 根據上下文生成專業郵件草稿 |
 
-### 🏥 生活域 (300_Life)
-- `/finance`：收支記錄與分析。
-- `/health`：健康數據追蹤。
+> **備註**：此地圖為動態更新，新開發的 Skill 將持續增補。
