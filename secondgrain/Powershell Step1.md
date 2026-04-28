@@ -468,3 +468,7 @@ chmod +x \~/.claude/scripts/session-cleanup.sh
 }
 ```
 > 💡 兩者\*\*不衝突\*\*：你正常打「收工」→ skill 接手；忘記打 → hook 接手做純備份。
+
+
+
+alias 快捷鍵：一鍵進入專案 + No Flicker 模式

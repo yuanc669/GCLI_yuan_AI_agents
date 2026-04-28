@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Powershell Step1.md",
+                "file": "歡迎.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Powershell Step1"
+              "title": "歡迎"
             }
           }
         ],
@@ -214,11 +214,11 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "97a8731a1c1576e8",
+  "active": "d4e38c6340531cc6",
   "lastOpenFiles": [
     "GCLI_yuan_AI_agents/工作筆記.md",
-    "GCLI_yuan_AI_agents",
     "Powershell Step1.md",
+    "GCLI_yuan_AI_agents",
     "歡迎.md"
   ]
 }
