@@ -1,34 +1,47 @@
-# Inbox 處理指令規範 (Internal Skill)
+# Inbox 處理與自動歸檔規範 (Skill: /inbox)
 
-## /inbox 掃描與轉譯邏輯
-1. **全域盤點**：讀取以下目錄中的所有檔案：
-   - `_inbox/` (根目錄暫存)
-   - `secondgrain/_inbox/` (Obsidian 內暫存)
-   - `secondgrain/Clippings/` (網頁擷取)
-2. **自動轉譯 (MarkItDown Integration)**：
-   - 偵測檔案後綴：`.pdf`, `.docx`, `.pptx`, `.xlsx`, `.html`。
-   - **行動**：建議使用 `markitdown` 將其轉為 `.md` 格式，以便 AI 深度閱讀與搜尋。
-   - **存放**：轉譯後的 `.md` 檔案優先存入對應領域的 `notes/` 或 `drafts/`。
-3. **全域三層路由判定 (Lifecycle Routing)**：
-   - **T1：01_Records (原始進件)**
-     - 包含網頁剪輯、初步判讀摘要 ➔ 存至 `[域]/01_Records/`。
-     - **標籤規範**：`#record` + `#域` + `#專案名(若有)`。
-   - **T2：02_Active (進行中事項)**
-     - 包含 Skill 產出的計畫、專案管理總表 ➔ 存至 `[域]/02_Active/[專案名稱]/`。
-   - **T3：03_Library (永久資產)**
-     - 包含結案終稿、正式證明 PDF 之連結 MD ➔ 存至 `[域]/03_Library/`。
+## 🎯 目標
+將 `_inbox/` 中的原始資料自動轉譯、提煉並歸檔至「四域架構」中，實現「丟入即忘」的自動化流程。
 
-4. **特定域歸檔細則 (Data Cluster)**：
+## 📂 檔案命名與處置邏輯
+1. **檔名規範**：`[年份]_[第一作者]_[標題關鍵字].md` (例如：`2024_Lee_Exosomes_Sepsis.md`)。
+2. **Markdown 主筆記**：存於 `400_Data/[分類]/[規範檔名].md`。
+3. **原始檔案**：移入 `400_Data/[分類]/_assets/[原始檔名].[副檔名]`。
+4. **Inbox 清空**：處理完成後，`_inbox/` 應保持整潔。
 
-   - **🔴 緊急**：IRB/國科會截止日、24h 內會議。
-   - **🟡 重要**：論文投稿進度、實驗數據異常。
-   - **🟢 一般**：一般郵件回覆、生活記錄。
+## 📝 內容結構規範 (兩段式提煉)
+生成的 Markdown 筆記必須包含以下結構：
 
-## /inbox 產出格式
-- **積壓報告**：分類列出待處理項。
-- **轉譯建議**：列出哪些檔案可被 MarkItDown 處理。
-- **行動建議**：提供分派至各域的指令。
+### YAML Frontmatter
+```yaml
+title: "[完整標題]"
+author: "[作者全名]"
+year: [年份]
+category: "[分類]"
+original_file: "./_assets/[原始檔名].[副檔名]"
+processed_date: 2026-04-29
+```
 
-## /inbox 歸檔自動化 (Data Cluster)
-- 文件名含 16S/OTU/Sham/DN -> 強制歸入 `400_Data/DN/`。
-- 其他研究數據 -> 歸入 `400_Data/UUO/`。
+### 第一段：AI 精華層 (Executive Summary)
+- **GAP (Research Gap)**: [一句話描述本文想解決的核心缺口]
+- **METH (Methodology)**: [關鍵實驗設計或核心方法]
+- **Key Finding**: [最重要的核心研究結論]
+
+### 第二段：學術五力分析 (Academic Extraction)
+- **BG (Background)**: 研究背景、核心定義、既有理論基準。
+- **GAP (Research Gap)**: 現有研究未解決的矛盾、盲點或限制。
+- **RQ (Research Question)**: 本文具體想回答的科學/實務問題。
+- **METH (Methodology)**: 實驗設計、數據來源、關鍵模型或分析工具。
+- **CONTRI (Contribution)**: 理論或實務上的原創點、解決了什麼問題。
+
+### 第三段：全文轉譯 (Original Content)
+- [接續 MarkItDown 的完整轉譯內容]
+
+## 🛠️ 執行流程
+1. **掃描**：盤點 `_inbox/` 檔案。
+2. **提案**：向使用者報告分類與命名建議。
+3. **執行**：
+   - 使用 `markitdown` 轉譯。
+   - 讀取內容並執行「兩段式提煉」。
+   - 依照命名規則存檔，建立目錄並移動原始檔至 `_assets/`。
+4. **回報**：完成清單。
