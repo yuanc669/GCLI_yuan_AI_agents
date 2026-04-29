@@ -81,14 +81,20 @@ AI agents/
 4. **整合** ➔ `/weekly-review` 生成週報。
 5. **備份** ➔ `/sync` 推送 GitHub。
 
-## 📂 六、輸出位置對照表
-| 產出物 | 存放位置 |
-| :--- | :--- |
-| 論文/計畫書段落 | `100_Research/drafts/papers/` |
-| 實驗想法/缺口分析 | `100_Research/notes/ideas/` |
-| Email 草稿 | `200_Secretary/drafts/emails/` |
-| 行程/待辦 | `_inbox/tasks.md` |
-| 日/週報 | `000_Orchestrator/` 相關目錄 |
+## 📂 六、輸出位置對照表 (Three-Tier Architecture)
+| 域別 | 第一層：01_Records (碎片) | 第二層：02_Active (專案/計畫) | 第三層：03_Library (資產) |
+| :--- | :--- | :--- | :--- |
+| **100_Research** | `100_Research/01_Records/` | `100_Research/02_Active/[Project]/` | `100_Research/03_Library/` |
+| **200_Secretary** | `200_Secretary/01_Records/` | `200_Secretary/02_Active/[Task]/` | `200_Secretary/03_Library/` |
+| **300_Life** | `300_Life/01_Records/` | `300_Life/02_Active/[Category]/` | `300_Life/03_Library/` |
+
+## 🔄 七、數據處理流水線 (Data Pipeline)
+1. **存放**：原始檔案（PDF, PPTX, XLSX）放入 Root 對應域。
+2. **判讀**：使用 `/inbox` 轉譯為 MD 並打上分類標籤。
+3. **歸檔層級**：
+   - **T1**：自動判讀筆記、網頁剪輯 ➔ `01_Records/`。
+   - **T2**：Skill 產出、專案管理、撰寫中稿件 ➔ `02_Active/`。
+   - **T3**：結案報告、已發表論文、生活 SOP ➔ `03_Library/`。
 
 ## ⚠️ 關鍵限制與禁令
 - **數據歸類**：Sham、16S、OTU 數據強制歸入 DN 叢集。
