@@ -24,7 +24,8 @@
 | `/meeting-note` | 會議整理 | 生成 Action Items 表格 |
 
 ## 🏥 生活域（300_Life）
-| Skill | 功能 | 備註 |
-| :--- | :--- | :--- |
-| `/finance` | 財務追蹤 | 遵守個人分類規範 |
-| `/health` | 健康紀錄 | 數據分析與建議 |
+| Skill | 功能 | 備註 | 輸出位置 |
+| :--- | :--- | :--- | :--- |
+| `/travel-plan` | 旅遊規劃 | 行程、預算、行李清單 | `300_Life/records/` |
+| `/finance` | 財務追蹤 | 遵守個人分類規範 | `300_Life/records/` |
+| `/health` | 健康紀錄 | 數據分析與建議 | `300_Life/records/` |

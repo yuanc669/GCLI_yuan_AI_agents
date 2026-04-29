@@ -1,7 +1,10 @@
 # Inbox 處理指令規範 (Internal Skill)
 
 ## /inbox 掃描與轉譯邏輯
-1. **全域盤點**：讀取 `_inbox/` 下的所有目錄與檔案。
+1. **全域盤點**：讀取以下目錄中的所有檔案：
+   - `_inbox/` (根目錄暫存)
+   - `secondgrain/_inbox/` (Obsidian 內暫存)
+   - `secondgrain/Clippings/` (網頁擷取)
 2. **自動轉譯 (MarkItDown Integration)**：
    - 偵測檔案後綴：`.pdf`, `.docx`, `.pptx`, `.xlsx`, `.html`。
    - **行動**：建議使用 `markitdown` 將其轉為 `.md` 格式，以便 AI 深度閱讀與搜尋。

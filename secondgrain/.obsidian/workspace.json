@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/‎Google Gemini.md",
+                "file": "GCLI_yuan_AI_agents/工作筆記.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "‎Google Gemini"
-            }
-          }
-        ]
-      },
-      {
-        "id": "204ccfb77fb0af3c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d76f96b1464721ac",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "關聯圖檢視"
+              "title": "工作筆記"
             }
           }
         ]
@@ -220,12 +204,35 @@
   },
   "active": "11ea2f099d39a32a",
   "lastOpenFiles": [
-    "歡迎.md",
+    "Clippings/Post by @yyvesl on Threads.md",
     "Clippings/‎Google Gemini.md",
+    "300_Life/Records/台南南區 好農家米糕｜一碗從1946年傳下來，又入選米其林必比登的古早味｜食記｜樂活台南｜旅遊、美食、生活｜大台南非官網｜tainanlohas.cc.md",
+    "300_Life/Records/2026台南國華街必吃美食有哪些？20間在地人也愛的必吃口袋名單.md",
+    "300_Life/Records/【台南美食】水仙宮三兄弟魚湯店！隱身在菜市場的魚湯店，漁獲當天現捕，早上六點就能吃到~ - 熱血玩台南。跳躍新世界.md",
+    "100_Research/Notes/20260429_KJA_Rejection_Feedback.md",
+    "GCLI_yuan_AI_agents/工作筆記.md",
+    "000_Orchestrator/Daily/2026-04-29.md",
+    "000_Orchestrator/Daily/2026-04-28.md",
+    "300_Life/Records/早餐吃到下午再退房！自助洗衣，腳踏車隨你用，走路就到國華街美食～.md",
+    "300_Life/Records/【超實用不踩雷名單】17家一吃會上癮的台南美食！每家都是高人氣排隊夯店啊～～ 台南旅遊新聞 玩全台灣旅遊網.md",
+    "300_Life/Records/台南｜沙淘宮廟海產・老派平價海產店，碳烤熱炒都有水準.md",
+    "300_Life/Records/台南老派蝦捲店「府城黃家蝦捲」，美味密碼在內餡，四度遷徙熟客仍緊緊跟隨 - 郭銘哲  島嶼晃遊者 - 微笑台灣 - 用深度旅遊體驗鄉鎮魅力.md",
+    "300_Life/Records/【台南中西區美食】大菜市無名羊肉湯：米其林必比登昇天羊肉湯，超鮮嫩無腥羶，想吃好料一定要早起！6589 @貓大爺.md",
+    "300_Life/Records/山記魚仔店 在台南把海鮮、日本料理當早餐吃！來一碗龍膽石湯鮮魚湯！.md",
+    "300_Life/Records/2026【台南美食推薦】50間台南必吃美食大盤點！絕不能錯過！  熊貓愛吃魚の開箱旅遊.md",
+    "300_Life/Records/紅到日本小卷米粉！2026台南小吃推薦30家：百元有找螃蟹粥、牛肉湯.md",
+    "_inbox",
+    "Clippings/【超實用不踩雷名單】17家一吃會上癮的台南美食！每家都是高人氣排隊夯店啊～～ 台南旅遊新聞 玩全台灣旅遊網.md",
+    "Clippings/台南｜沙淘宮廟海產・老派平價海產店，碳烤熱炒都有水準.md",
+    "Clippings/台南南區 好農家米糕｜一碗從1946年傳下來，又入選米其林必比登的古早味｜食記｜樂活台南｜旅遊、美食、生活｜大台南非官網｜tainanlohas.cc.md",
+    "Clippings/台南老派蝦捲店「府城黃家蝦捲」，美味密碼在內餡，四度遷徙熟客仍緊緊跟隨 - 郭銘哲  島嶼晃遊者 - 微笑台灣 - 用深度旅遊體驗鄉鎮魅力.md",
+    "Clippings/【台南中西區美食】大菜市無名羊肉湯：米其林必比登昇天羊肉湯，超鮮嫩無腥羶，想吃好料一定要早起！6589 @貓大爺.md",
+    "Clippings/山記魚仔店 在台南把海鮮、日本料理當早餐吃！來一碗龍膽石湯鮮魚湯！.md",
+    "Clippings/【台南美食】水仙宮三兄弟魚湯店！隱身在菜市場的魚湯店，漁獲當天現捕，早上六點就能吃到~ - 熱血玩台南。跳躍新世界.md",
+    "Clippings/早餐吃到下午再退房！自助洗衣，腳踏車隨你用，走路就到國華街美食～.md",
+    "Clippings/2026【台南美食推薦】50間台南必吃美食大盤點！絕不能錯過！  熊貓愛吃魚の開箱旅遊.md",
     "Clippings",
     "未命名.base",
-    "Powershell Step1.md",
-    "GCLI_yuan_AI_agents/工作筆記.md",
     "GCLI_yuan_AI_agents"
   ]
 }
