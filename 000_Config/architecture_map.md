@@ -13,7 +13,7 @@
 | **Gmail** | 搜尋/讀信、建草稿 | 需人工確認才發送 |
 | **Google Calendar** | 查詢/建立/更新行程 | |
 | **Google Drive** | 搜尋/讀取檔案 | |
-| **Obsidian** | 讀寫筆記、標籤管理 | 維護 `secondgrain/` |
+| **Obsidian** | 讀寫筆記、標籤管理 | 管理根目錄 Master Vault |
 | **Firebase** | 資料庫查詢與管理 | |
 | **NotebookLM** | 知識庫問答、Podcast 生成 | |
 
@@ -28,6 +28,9 @@
   - **功能**: 執行 `tools/shutdown.py` 進行 Git 推送。
 
 ### 🔬 研究域 (100_Research)
+- **Skill**: `/academic-coach`
+  - **觸發**: 「學術閱讀教練」
+  - **功能**: 依五大卡片結構提煉論文精華。
 - **Skill**: `/gap`
   - **觸發**: 「分析研究缺口」
   - **功能**: 執行機制/轉譯/方法學三軸分析。

@@ -40,6 +40,7 @@ AI agents/
 ### 🔬 研究域 (100_Research)
 | Skill | 觸發方式 | 功能 |
 | :--- | :--- | :--- |
+| **/academic-coach** | 「學術閱讀教練」 | 依 BG/GAP/RQ/METH/CONTRI 五大結構提煉論文 |
 | **/triage** | 「文獻分選」 | 比較多篇論文的方法、數據與局限 (Matrix) |
 | **/socratic** | 「研究設計引導」 | 蘇格拉底式對話收斂 RQ 與實驗設計 |
 | **/audit** | 「論文審計」 | 檢查論證邏輯、排除 AI 贅詞與校對 |
@@ -83,8 +84,8 @@ AI agents/
 - **優先度衝突**：IRB/國科會截止 > 論文投稿 > 一般回覆 > 其他。
 
 ## 📥 五、標準工作流程 (GTD Workflow)
-1. **新資料進入** ➔ 丟進 `_inbox/`、`secondgrain/_inbox/` 或 `secondgrain/Clippings/`。
-2. **整理** ➔ `/inbox` 掃描上述三個位置，分類並歸檔至相應域。
+1. **新資料進入** ➔ 丟進 `_inbox/` 或 `Clippings/`。
+2. **整理** ➔ `/inbox` 掃描上述位置，分類並歸檔至相應域。
 3. **推進** ➔ 調用各域專案 Skill 產出內容。
 4. **整合** ➔ `/weekly-review` 生成週報。
 5. **備份** ➔ `/sync` 推送 GitHub。
