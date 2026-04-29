@@ -12,6 +12,14 @@
 | :--- | :--- | :--- |
 | `/gap` | 缺口分析 | 三軸分析（Mechanism, Translational, Methodology） |
 | `/analyze` | 數據解讀 | 三階論（結果 -> 脈絡 -> 解讀） |
+| `/microbiome`| 菌叢分析 | 16S rRNA 數據流 (QC, Alpha/Beta Div, LEfSe) |
+| `/ihc` | IHC 定量 | ImageJ 色彩分離、陽性面積/強度計算 |
+| `/wb` | WB 定量 | 影像背景扣除、Loading Control 正規化 |
+| `/skin-pathology`| 皮膚測量 | H&E 表皮厚度 8 點採樣、比例尺換算 |
+| `/scoring` | 損傷評分 | 肝/肺/腎/腸公認評分標準執行 |
+| `/if-coloc` | IF 共定位 | Cellpose 分割、PCC/Manders 指標計算 |
+| `/mt` | MT 纖維化 | 藍色區域 Area Fraction (CVF%) 計算 |
+| `/pas` | PAS 染色 | 系膜擴張 (Mesangial Area%) 量化 |
 | `/lit-review`| 文獻綜述 | 標準格式（BMRC） |
 
 ## 📧 秘書域（200_Secretary）

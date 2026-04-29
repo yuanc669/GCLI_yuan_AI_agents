@@ -45,6 +45,14 @@ AI agents/
 | **/audit** | 「論文審計」 | 檢查論證邏輯、排除 AI 贅詞與校對 |
 | **/data-interpret** | 「幫我解讀數據」 | 解讀實驗數據、產出結果段落 |
 | **/literature-gap** | 「分析研究缺口」 | 三軸缺口分析（機制/轉譯/方法學） |
+| **/microbiome** | 「腸道菌叢分析」 | 16S rRNA 數據流處理 (Diversity, PCoA, LEfSe) |
+| **/ihc** | 「IHC 定量分析」 | ImageJ 色彩分離與陽性面積/強度計算 |
+| **/wb** | 「WB 定量分析」 | 西方墨點法影像解析、正規化與 Fold Change |
+| **/skin-pathology** | 「皮膚病理測量」 | H&E 表皮厚度 8 點隨機採樣與定標 |
+| **/scoring** | 「病理損傷評分」 | 肝/肺/腎/腸公認評分系統評估 |
+| **/if-coloc** | 「IF 共定位量化」 | Cellpose 核分割、PCC 與 Manders 係數 |
+| **/mt** | 「Masson 纖維化」 | MT 染色藍色區域 CVF% 自動化定量 |
+| **/pas** | 「PAS 染色分析」 | 腎小球系膜擴張與基底膜增厚量化 |
 | **/abstract** | 「幫我寫摘要」 | 論文摘要撰寫 |
 | **/discussion** | 「幫我寫討論」 | Discussion 段落撰寫 |
 | **/experiment-design** | 「幫我設計實驗」 | 實驗方案設計 |
