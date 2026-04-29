@@ -5,14 +5,14 @@ if (!(Test-Path $targetDir)) {
     New-Item -ItemType Directory -Force -Path $targetDir
 }
 
-# 取得最新的一張 PNG
+# Get latest PNG
 $latestFile = Get-ChildItem -Path $sourceDir -Filter "*.png" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
 
 if ($latestFile) {
     $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
     $newName = "screenshot-$timestamp.png"
     Copy-Item $latestFile.FullName -Destination (Join-Path $targetDir $newName)
-    Write-Host "✅ 已將最新截圖同步至 inbox: $newName"
+    Write-Host "Sync success: $newName"
 } else {
-    Write-Warning "❌ 在 wmux 暫存區找不到截圖。"
+    Write-Warning "No screenshot found in wmux temp dir."
 }
