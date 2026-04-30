@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100_Research/02_Active/DN_GaExo/20260501_Summary_Sham_Sham10W_Report.md",
+                "file": "300_Life/records/20260501_Tainan_TravelPlan.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260501_Summary_Sham_Sham10W_Report"
+              "title": "20260501_Tainan_TravelPlan"
             }
           }
         ]
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,6 +205,7 @@
   },
   "active": "78ddd27d6415ce57",
   "lastOpenFiles": [
+    "100_Research/02_Active/DN_GaExo/20260501_Summary_Sham_Sham10W_Report.md",
     "_inbox/data/screenshot-20260501-055315.png",
     "100_Research/02_Active/DN_GaExo/~$Sham_Baseline_Analysis_Visualized.pptx",
     "100_Research/02_Active/DN_GaExo/20260501_Summary_Sham_Baseline_Integrated_Report.md",
@@ -220,7 +222,6 @@
     "temp_observed.png",
     "400_Data/Exosomes/2021_Lee_hPMSC_Exo_Obese_Liver.md",
     "100_Research/02_Active/DN_GaExo/~$Sham_Sham10W_Analysis.pptx",
-    "100_Research/02_Active/DN_GaExo/20260501_Summary_Sham_Sham10W_Report.md",
     "100_Research/02_Active/DN_GaExo/Sham_Sham10W_Analysis.pptx",
     "tools/generate_sham_sham10w_ppt.py",
     "100_Research/Personal_Research_Hub.md",
@@ -248,7 +249,6 @@
     "_inbox/DN_GaExo/HE評分/20251126_hs2w-1_he_1.jpg",
     "100_Research/01_Records/2026_Vo_Engineered_Exo_TLR4_Card.md",
     "100_Research/01_Records/2018_Peng_Platonin_Vascular_Card.md",
-    "000_Config/error_logs/screenshot-1777360904779.png",
-    "_inbox/data/screenshot-20260429-122858.png"
+    "000_Config/error_logs/screenshot-1777360904779.png"
   ]
 }
