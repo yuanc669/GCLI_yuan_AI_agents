@@ -11,12 +11,14 @@
             "id": "fcb2e182c40e8dc1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_inbox/DN_GaExo/HE評分/20251126_hs2w-1_he_1.jpg"
+                "file": "2026_Engineered_exosome-mediated_Card.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "20251126_hs2w-1_he_1"
+              "icon": "lucide-file",
+              "title": "2026_Engineered_exosome-mediated_Card"
             }
           }
         ]
@@ -200,15 +202,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d4e38c6340531cc6",
+  "active": "fcb2e182c40e8dc1",
   "lastOpenFiles": [
+    "100_Research/20260429_Microbiome_Full_Report.md",
+    "100_Research/Personal_Research_Hub.md",
+    "100_Research/02_Active/Proteomics_Manuscript_Draft.md",
+    "100_Research/02_Active/DN_GaExo/20260430_Sham_Baseline_Integrated_Analysis.md",
+    "100_Research/02_Active/DN_GaExo/20260430_Sham_HS2W_Integrated_Final.md",
+    "100_Research/02_Active/DN_GaExo/20260430_Sham_HS2W_Integrated_Analysis.md",
     "100_Research/02_Active/DN_GaExo/20260430_Full_Pathology_Report.md",
+    "_inbox/DN_GaExo/~$20260225.xlsx",
+    "100_Research/02_Active/DN_GaExo/20260429_Pathology_Scoring_Report.md",
+    "100_Research/02_Active/DN_GaExo/20260429_Biochemistry_Analysis_Report.md",
+    "_inbox/DN_GaExo/HE評分/20251126_hs2w-1_he_1.jpg",
     "100_Research/02_Active/DN_GaExo/20260430_Physiological_Data_Prism.md",
     "400_Data/DN/DN_GaExo_Weight_Trend_Prism.csv",
     "400_Data/DN/DN_GaExo_Biochem_Prism.csv",
     "_inbox/DN_GaExo/~$20251001.xlsx",
     "100_Research/01_Records/2026_Vo_Engineered_Exo_TLR4_Card.md",
-    "100_Research/Personal_Research_Hub.md",
     "100_Research/02_Active/DN_GaExo/_Project_Hub.md",
     "2026_Engineered_exosome-mediated_Card.md",
     "100_Research/01_Records/2018_Peng_Platonin_Vascular_Card.md",
@@ -221,7 +232,6 @@
     "_inbox/KJA/Fig 2.tif",
     "_inbox/KJA/Fig 1.tif",
     "_inbox/KJA/Draft manuscript 0319_yuan.docx",
-    "_inbox/KJA/Supplemental Fig.tif",
     "000_Orchestrator/Templates/Technical_Utility.md",
     "000_Orchestrator/Templates/Academic_Logic.md",
     "400_Data/Inflammation_Sepsis/2018 Platonin mitigates vascular hyporeactivity of thoracic aorta in septic rats.md",
@@ -232,13 +242,6 @@
     "300_Life/02_Active/Travel/20260501_Tainan_TravelPlan.md",
     "400_Data/Organ_Pathology/2025_Pyrroloquinoline Quinone Mitigates Testicular Injury and.md",
     "400_Data/Organ_Pathology/2021 Therapeutic effect of modulating the NLRP3-regulated transforming growth factor-β signaling pathway on interstitial cystitisbladder pain syndrome.md",
-    "100_Research/notes/2025_Effectiveness of Exosomes from Different Mesenchymal Stem.md",
-    "100_Research/01_Records/2025_Effectiveness_of_Card.md",
-    "100_Research/01_Records/2025_Pyrroloquinoline_Quinone_Card.md",
-    "100_Research/01_Records/2025_Thermo-sensitive_polyethylene_Card.md",
-    "100_Research/01_Records/2025MicroRNA-100-5p_in_Card.md",
-    "100_Research/01_Records/2026_Engineered_exosome-mediated_Card.md",
-    "100_Research/01_Records/2024_Therapeutic_Effects_Card.md",
     "_inbox/data/screenshot-20260429-122858.png",
     "100_Research/notes/ideas/GiNV_ToxList.png"
   ]

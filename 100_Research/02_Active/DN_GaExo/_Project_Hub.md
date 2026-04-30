@@ -6,10 +6,11 @@
 - **當前狀態**: **證據閉環 (Evidence Closed-loop)** - 內容物、菌相與生理表型邏輯一致。
 
 ## 📊 數據紀錄
-- [[20260430_Full_Pathology_Report]]：**組織驗證 (Final)** - 全組別 HE 病理掃描，確認 GaE10 顯著降低 TIS 評分，修復腎小管損傷 (RPS 2010 評分標準)。
-- [[20260429_Pathology_Scoring_Report]]：組織驗證 (初步) - Sham vs HS10W vs GaE10。
-- [[20260429_Integrated_Multiomics_Report]]：**機制突破** - 發現 GaExo 攜帶 **Myrosinase**，並顯著誘導護腎菌 **Kineothrix** (Rho=-0.74 w/ BUN)。
-- [[20260430_Physiological_Data_Prism]]：**生理數據 (Final)** - 提供 Prism 繪圖用之詳細 BUN, TG, AC 個別樣本值與體重趨勢。
+- [[20260430_Full_Pathology_Report]]：**組織驗證 (Final)** - 全組別 HE 病理掃描。
+- [[20260430_Sham_HS2W_Integrated_Final]]：**疾病早期分析** - Sham vs HS2W 之生理、生化與菌相全維度整合。
+- [[20260430_Sham_Baseline_Integrated_Analysis]]：**基準線分析** - Sham vs Sham10W。
+- [[20260430_Physiological_Data_Prism]]：**生理數據 (Final)** - Prism 繪圖專用數據。
+
 - [[20260429_Biochemistry_Analysis_Report]]：**核心發現** - GaE10 顯著降低 BUN (p=0.0005) 與 TG (p=0.0151)。
 - [[20260429_BodyWeight_Trend_Report]]：**模型驗證** - HS 組在 W5 後顯著消瘦，GaE 組展現救援效應。
 
