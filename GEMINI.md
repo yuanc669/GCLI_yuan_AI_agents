@@ -24,7 +24,7 @@ AI agents/
 | **Drive** | 搜尋/讀取/分析雲端檔案 | 已就緒 | |
 | **Obsidian** | 讀寫筆記、管理標籤與 Frontmatter | 已就緒 | |
 | **Firebase** | 資料庫查詢與管理 | 預留 | |
-| **NotebookLM** | 知識庫建立、AI 問答、Podcast 生成 | 需更新 | 認證過期，請執行 `nlm login` |
+| NotebookLM | 知識庫建立、AI 問答、Podcast 生成 | 已移除 | 因認證穩定性問題暫時移除 |
 
 ## 🗺️ 三、完整 Skill 清單 (Skill Map)
 
