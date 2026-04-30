@@ -17,14 +17,14 @@ AI agents/
 ```
 
 ## 🛠️ 二、工具整合 (MCP Tools)
-| 工具 | 功能描述 | 狀態 |
-| :--- | :--- | :--- |
-| **Gmail** | 搜尋/讀信、建草稿（不自動發送） | 預留 |
-| **Calendar** | 查詢/建立/更新行程 | 預留 |
-| **Drive** | 搜尋/讀取/分析雲端檔案 | 已就緒 |
-| **Obsidian** | 讀寫筆記、管理標籤與 Frontmatter | 已就緒 |
-| **Firebase** | 資料庫查詢與管理 | 預留 |
-| **NotebookLM** | 知識庫建立、AI 問答、Podcast 生成 | 已就緒 |
+| 工具 | 功能描述 | 狀態 | 備註 |
+| :--- | :--- | :--- | :--- |
+| **Gmail** | 搜尋/讀信、建草稿（不自動發送） | 已就緒 | 已連線至 yuanc669@gmail.com |
+| **Calendar** | 查詢/建立/更新行程 | 已就緒 | |
+| **Drive** | 搜尋/讀取/分析雲端檔案 | 已就緒 | |
+| **Obsidian** | 讀寫筆記、管理標籤與 Frontmatter | 已就緒 | |
+| **Firebase** | 資料庫查詢與管理 | 預留 | |
+| **NotebookLM** | 知識庫建立、AI 問答、Podcast 生成 | 需更新 | 認證過期，請執行 `nlm login` |
 
 ## 🗺️ 三、完整 Skill 清單 (Skill Map)
 
