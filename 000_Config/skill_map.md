@@ -6,12 +6,15 @@
 | `/inbox` | 「幫我整理 inbox」 | 全區掃描，分派處理 | 對話摘要 |
 | `/sync` | 「同步到雲端」 | 執行 Git 同步腳本 | Console |
 | `/report` | 「生成週報/日報」 | 彙整進度與下一階段計畫 | `000_Orchestrator/` |
+| `/lit-reconstruct` | 「重建知識庫」 | 批量轉化文獻為結構化 T1 卡片 | `100_Research/01_Records/` |
 
 ## 🔬 研究域（100_Research）
 | Skill | 功能 | 核心規範 |
 | :--- | :--- | :--- |
 | `/gap` | 缺口分析 | 三軸分析（Mechanism, Translational, Methodology） |
-| `/analyze` | 數據解讀 | 三階論（結果 -> 脈絡 -> 解讀） |
+| `/analyze` | 數據解讀 | 三階論 + **Prism 格式化輸出** (Individual values) |
+| `/figure-prep` | 論文圖表準備 | 產出 Results 描述、Prism 數據與統計備註 |
+| `/multi-omics` | 跨組學整合 | 連結內容物、菌相與生理表型之邏輯鏈 |
 | `/microbiome`| 菌叢分析 | 16S rRNA 數據流 (QC, Alpha/Beta Div, LEfSe) |
 | `/ihc` | IHC 定量 | ImageJ 色彩分離、陽性面積/強度計算 |
 | `/wb` | WB 定量 | 影像背景扣除、Loading Control 正規化 |

@@ -40,7 +40,9 @@ AI agents/
 ### 🔬 研究域 (100_Research)
 | Skill | 觸發方式 | 功能 |
 | :--- | :--- | :--- |
-| **/academic-coach** | 「學術閱讀教練」 | 依 BG/GAP/RQ/METH/CONTRI 五大結構提煉論文 |
+| **/academic-coach** | 「學術閱讀教練」 | 依 BG/GAP/RQ/METH/CONTRI 批量重建文獻 |
+| **/figure-prep** | 「幫我準備圖表」 | 產出 Prism 數據、Results 描述與統計備註 |
+| **/multi-omics** | 「跨組學整合」 | 建立內容物->菌相->生理表型之邏輯鏈條 |
 | **/triage** | 「文獻分選」 | 比較多篇論文的方法、數據與局限 (Matrix) |
 | **/socratic** | 「研究設計引導」 | 蘇格拉底式對話收斂 RQ 與實驗設計 |
 | **/audit** | 「論文審計」 | 檢查論證邏輯、排除 AI 贅詞與校對 |

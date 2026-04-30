@@ -6,15 +6,18 @@
 - **當前狀態**: **證據閉環 (Evidence Closed-loop)** - 內容物、菌相與生理表型邏輯一致。
 
 ## 📊 數據紀錄
-- [[20260429_Pathology_Scoring_Report]]：**組織驗證** - GaE10 顯著降低 TIS 評分 (p<0.01)，修復腎小管損傷。
+- [[20260430_Full_Pathology_Report]]：**組織驗證 (Final)** - 全組別 HE 病理掃描，確認 GaE10 顯著降低 TIS 評分，修復腎小管損傷 (RPS 2010 評分標準)。
+- [[20260429_Pathology_Scoring_Report]]：組織驗證 (初步) - Sham vs HS10W vs GaE10。
 - [[20260429_Integrated_Multiomics_Report]]：**機制突破** - 發現 GaExo 攜帶 **Myrosinase**，並顯著誘導護腎菌 **Kineothrix** (Rho=-0.74 w/ BUN)。
-- [[20260429_Biochemistry_Analysis_Report]]：**核心發現** - GaE10 顯著降低 BUN (p=0.0005) 與 TG (p=0.0151)，驗證了強大的腎臟保護療效。
-- [[20260429_BodyWeight_Trend_Report]]：**模型驗證** - HS 組在 W5 (STZ 誘導) 後出現顯著體重下降，確認糖尿病消瘦模型建立成功。
-- [[20260429_Data_HS_Progression_Microbiome]]：HS2W/6W/10W 疾病進程腸道菌叢豐度分析。
-- [[20260429_Data_GaExo_Treatment_Microbiome]]：GaExo 治療組 (GaE9/10) 及多因子對照組 (SS/HFD/HS) 之菌叢豐度分析。
+- [[20260430_Physiological_Data_Prism]]：**生理數據 (Final)** - 提供 Prism 繪圖用之詳細 BUN, TG, AC 個別樣本值與體重趨勢。
+- [[20260429_Biochemistry_Analysis_Report]]：**核心發現** - GaE10 顯著降低 BUN (p=0.0005) 與 TG (p=0.0151)。
+- [[20260429_BodyWeight_Trend_Report]]：**模型驗證** - HS 組在 W5 後顯著消瘦，GaE 組展現救援效應。
 
 ## 🔗 相關紀錄 (T1 Records)
-- 
+- [[2026_Vo_Engineered_Exo_TLR4_Card]] (核心機制: let-7i-5p/TLR4)
+- [[2024_Le_Engineered_Exo_Card]] (轉譯價值: RAW264.7 外泌體替代)
+- [[2025_Syu_KCF18_Hydrogel_Card]] (遞送系統: 溫敏水凝膠緩釋)
+- [[2022_Morales_OXPHOS_Card]] (代謝背景: OXPHOS 損害)
 
 
 ## 📚 待複閱學術卡片 (Pending Review)

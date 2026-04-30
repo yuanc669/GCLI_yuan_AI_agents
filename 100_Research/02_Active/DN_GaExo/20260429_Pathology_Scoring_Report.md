@@ -3,8 +3,14 @@
 本報告對 **HS10W (疾病組)** 與 **HS10WGaE10 (治療組)** 的腎臟 H&E 切片進行了盲測評分，旨在驗證大蒜外泌體對組織結構的保護效果。
 
 ## 📏 評分系統: Tubulointerstitial Injury Score (TIS)
-*   **評估指標**: 腎小管擴張 (Tubular dilation)、管型 (Casts)、刷狀緣脫落、間質炎症。
-*   **賦分標準**: 0 (正常), 1 (<10%), 2 (10-25%), 3 (26-50%), 4 (>50% 面積受損)。
+本報告採用國際公認的 **Renal Pathology Society (RPS) 2010 年分類系統**，針對小管間質損傷 (Tubulointerstitial Injury) 進行量化評估：
+*   **評估指標**: 腎小管擴張 (Tubular dilation)、間質纖維化與小管萎縮 (IFTA)、間質炎症。
+*   **IFTA 賦分標準**: 
+    *   **Score 0**: 無 (None)
+    *   **Score 1**: < 25% 面積受損
+    *   **Score 2**: 25% – 50% 面積受損
+    *   **Score 3**: > 50% 面積受損
+*   **Reference**: Tervaert, T. W., et al. (2010). Pathologic classification of diabetic nephropathy. *JASN*, 21(4), 556-563.
 
 ## 📊 量化評分總表
 
