@@ -1,0 +1,11 @@
+Pathway,Gene_Ratio,P_value,Count,#NAME?
+Antioxidant activity,0.18,0.0008,14,3.05
+Response to stress,0.25,0.00005,21,4.3
+Protein folding,0.15,0.004,12,2.82
+Hydrolase activity,0.22,0.0003,19,3.52
+Oxidoreductase activity,0.14,0.0015,11,2.82
+Vesicle-mediated transport,0.12,0.007,9,2.15
+Negative regulation of inflammatory response,0.1,0.005,8,2.3
+Cellular response to hypoxia,0.09,0.012,7,2.05
+Detoxification,0.11,0.009,8,1.96
+Regulation of apoptosis,0.13,0.006,10,2.22

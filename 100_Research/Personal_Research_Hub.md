@@ -46,5 +46,5 @@ updated: 2026-04-30
 - [[20260429_Data_HS_Progression_Microbiome]]
 
 ## 💡 衍生研究方向與專案
-1. **DN_GaExo 專案**：結合 let-7i-5p 或短肽策略，探討 GaExo 中 Myrosinase 誘導的 Kineothrix 改變是否能調節 TLR4/NF-κB 路徑來改善腎臟功能 (BUN)。
-2. **KJA 補件計畫**：基於 2022 Morales 與 2021 Shih 建立的機制分析流程（如：蛋白質體學與 OXPHOS 分析），補強 GiEVs 論文的轉譯價值與機制。
+1. **DN_GaExo 專案**：[[DN_GaExo/_Project_Hub|DN_GaExo 專案中心]]。探討 GaExo 中 Myrosinase 誘導的 Kineothrix 改變是否能調節 TLR4/NF-κB 路徑來改善腎臟功能 (BUN)。
+2. **AP_GiNV 專案**：[[AP_GiNV/_Project_Hub|AP_GiNV 專案中心]]。針對吸入性肺炎 (ALI)，利用蛋白質體學發現的抗氧化酶 (Peroxidase/HSPs) 與 14-3-3 蛋白，補強轉投 *Phytomedicine* 的機制證據。

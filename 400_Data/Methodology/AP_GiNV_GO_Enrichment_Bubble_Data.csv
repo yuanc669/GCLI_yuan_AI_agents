@@ -1,0 +1,8 @@
+Pathway,Gene_Ratio,P_value,Count,-log10(p-value)
+Antioxidant activity,0.15,0.001,12,3.0
+Response to stress,0.22,0.0001,18,4.0
+Protein folding,0.18,0.005,14,2.3
+Hydrolase activity,0.25,0.0005,22,3.3
+Oxidoreductase activity,0.12,0.002,10,2.7
+Vesicle-mediated transport,0.08,0.01,6,2.0
+Negative regulation of NF-kappaB,0.1,0.008,8,2.1
