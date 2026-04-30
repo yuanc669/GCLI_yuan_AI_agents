@@ -3,38 +3,48 @@ type: ResearchHub
 domain: 100_Research
 tags: [publication-prep, exosome-therapy, let-7i-5p]
 status: active
-updated: 2026-04-29
+updated: 2026-04-30
 ---
 
 # 個人研究方向與發表儲備 (Research Direction & Publication Prep)
 
 ## 🎯 核心發表目標
-- **目標領域**：外泌體藥物遞送 (Engineered Exosomes)、代謝性炎症 (Obesity/Sepsis)、miRNA 機制研究。
-- **預計期刊**：Antioxidants, Pharmaceuticals, JEV 等。
+- **目標領域**：外泌體藥物遞送 (Engineered Exosomes)、多功能短肽療法 (Peptide Decoy)、代謝與系統性炎症 (Obesity/Sepsis)、miRNA 機制研究。
+- **預計期刊**：Antioxidants, Pharmaceuticals, JEV, Phytomedicine 等。
 
-## 📚 已提煉學術資產 (Literature Cards)
-- [[2024_Lee_RAW_Exo_Sepsis]]
-- [[2025_Liu_hPMSC_Exo_Pneumonia]]
-- [[2026_Zhang_Targeted_let7i_Exo]]
-- [[2021_Lee_hPMSC_Exo_Obese_Liver]]
-- [[2022_Chiang_hPMSC_Exo_ERStress_Lung]]
-- [[2025_Huang_MSC_Exo_Comparison]]
-- [[2018_Chang_Card]]
-- [[2020_Huang_Card]]
+## 📚 結構化提煉學術資產 (Structured T1 Records)
 
-## 📥 待複閱文獻 (Pending Review)
-- [[2019_Cluster_Card]]
-- [[2019_Magnesium_Sulfate_Card]]
-- [[2020_Peptide-Based_Card]]
-- [[2021_Peptide-Based_Card]]
-- [[2021_Testicular_Card]]
-- [[2021_Therapeutic_Card]]
-- [[2022_High-FructoseHigh-Fat_Card]]
-- [[2022_Tumor_Card]]
-- [[2025_Pyrroloquinoline_Card]]
-- [[2025_Thermo-sensitive_Card]]
-- [[2025MicroRNA-100-5p_Card]]
+### 🔬 外泌體與 miRNA (Exosomes & let-7i-5p/miR-100-5p)
+- [[2026_Vo_Engineered_Exo_TLR4_Card]] - let-7i-5p 靶向 TLR4 緩解肝損傷
+- [[2025_Chuang_Exo_Pneumonia_Card]] - hpMSC 外泌體 (let-7i-5p) 緩解吸入性肺炎
+- [[2025_Huang_Exo_Psoriasis_Comparison_Card]] - hPMSC 與 hUCMSC 外泌體治療乾癬比較
+- [[2025_Huang_miR100_Psoriasis_Card]] - miR-100-5p 透過 mTOR/S6K1 治療乾癬
+- [[2024_Le_Engineered_Exo_Card]] - RAW264.7 工程化外泌體 (let-7i-5p) 抗敗血症
+- [[2021_Chang_Let7i_Obesity_Card]] - pcMSC 外泌體 (let-7i-5p) 預防肥胖合併敗血症
 
-## 💡 衍生研究方向
-1. **工程化巨噬細胞外泌體平台**：基於 2024 RAW264.7 研究，開發特定標靶 DN 的 let-7i-5p 載體。
-2. **ER Stress 與代謝性肺腎軸**：整合 2022 內質網應激機制，探討糖尿病併發症的跨器官保護。
+### 🧬 多功能誘餌短肽與遞送 (Decoy Peptides & Delivery)
+- [[2025_Syu_KCF18_Hydrogel_Card]] - KCF18 溫敏水凝膠治療膀胱纖維化
+- [[2022_Chen_TNFa_Lung_Card]] - KCF18 與 SEM18 在內毒素血症早期肺損傷的比較
+- [[2021_Shih_KCF18_Sepsis_Card]] - KCF18 三重抑制細胞激素治療內毒素血症
+- [[2020_Chang_TNFa_Decoy_Card]] - SEM18 阻斷 TNF-α 治療 LPS 肝損傷
+
+### 🫀 器官損傷與代謝機制 (Organ Injury & Metabolism)
+- [[2025_Syu_PQQ_Testicular_Card]] - PQQ 緩解睪丸扭轉再灌流的 OXPHOS 功能障礙
+- [[2022_Morales_OXPHOS_Card]] - 高果糖高脂飲食顯著下調肝臟線粒體 OXPHOS
+- [[2021_Shih_Testicular_OXPHOS_Card]] - 睪丸扭轉引起粒線體 OXPHOS 蛋白下調
+- [[2021_Shih_Bladder_NLRP3_Card]] - NLRP3/TGF-β 介導膀胱炎纖維化 (薑黃素介入)
+
+### 🌿 天然產物與方法學 (Natural Compounds & Methodology)
+- [[2020_Huang_VIGS_FoMV_Card]] - FoMV 向量用於禾本科病毒誘導基因沉默
+- [[2019_Chang_MgSO4_PH_Card]] - MgSO4 透過鈣離子拮抗治療肺高壓
+- [[2019_Chang_Tyrosol_CD14_Card]] - Tyrosol 透過 CD14 脫落抗發炎
+- [[2018_Peng_Platonin_Vascular_Card]] - Platonin 緩解敗血症血管反應性低下
+
+## 📊 實驗數據庫 (Data Records)
+- [[20260429_Data_Control_Group_Baseline]]
+- [[20260429_Data_GaExo_Treatment_Microbiome]]
+- [[20260429_Data_HS_Progression_Microbiome]]
+
+## 💡 衍生研究方向與專案
+1. **DN_GaExo 專案**：結合 let-7i-5p 或短肽策略，探討 GaExo 中 Myrosinase 誘導的 Kineothrix 改變是否能調節 TLR4/NF-κB 路徑來改善腎臟功能 (BUN)。
+2. **KJA 補件計畫**：基於 2022 Morales 與 2021 Shih 建立的機制分析流程（如：蛋白質體學與 OXPHOS 分析），補強 GiEVs 論文的轉譯價值與機制。

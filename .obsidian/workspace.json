@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/你說了 用 Obsidian 模板系統，讓學術閱讀如同開外掛】  Obsidian 很強，但真正讓它.md",
+                "file": "100_Research/02_Active/DN_GaExo/_Project_Hub.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "你說了 用 Obsidian 模板系統，讓學術閱讀如同開外掛】  Obsidian 很強，但真正讓它"
+              "title": "_Project_Hub"
             }
           }
         ]
@@ -204,8 +204,12 @@
   },
   "active": "c84bf6c0eee40677",
   "lastOpenFiles": [
-    "100_Research/notes/(2020) Virus-Induced Gene Silencing in Poaceae Using a Foxtail Mosaic Virus Vector.md",
+    "2026_Engineered_exosome-mediated_Card.md",
+    "100_Research/02_Active/DN_GaExo/_Project_Hub.md",
+    "100_Research/01_Records/2018_Peng_Platonin_Vascular_Card.md",
+    "000_Config/error_logs/screenshot-1777360904779.png",
     "Clippings/你說了 用 Obsidian 模板系統，讓學術閱讀如同開外掛】  Obsidian 很強，但真正讓它.md",
+    "100_Research/notes/(2020) Virus-Induced Gene Silencing in Poaceae Using a Foxtail Mosaic Virus Vector.md",
     "_inbox/(2020) Virus-Induced Gene Silencing in Poaceae Using a Foxtail Mosaic Virus Vector.pdf",
     "_inbox/KJA/KJA-S-26-00422.pdf",
     "_inbox/KJA/Fig 3.tif",
@@ -237,8 +241,6 @@
     "100_Research/01_Records/2022_Tumor_Card.md",
     "100_Research/01_Records/2022_High-FructoseHigh-Fat_Card.md",
     "100_Research/01_Records/2022_Exosomes_from_Card.md",
-    "100_Research/01_Records/2021_Therapeutic_Card.md",
-    "100_Research/01_Records/2021_Testicular_Card.md",
     "_inbox/data/screenshot-20260429-122858.png",
     "100_Research/notes/ideas/GiNV_ToxList.png"
   ]
