@@ -7,6 +7,7 @@
 | 確認標準品數量需求並採購 6-gingerol 標準品 | 薑辣素會議 | 待定 | 高 | - |
 | 聯繫 Dr. Xu 確認檢測報價、送樣量與請款行政細節 | 薑辣素會議 | 農曆年後 | 中 | - |
 | 分析 KJA 審稿意見並補強生存率(Survival Rate)數據 | KJA 退稿 | 2026-05-15 | 極高 | 需優先處理，針對 Phytomedicine 要求調整 |
+| 配置與執行 Trello Bot 自動化工具 (gda-trello-bots) | GitHub/Trello | 2026-05-14 | 中 | 需獲取 API Key/Token 並替換 Board/List ID |
 | 準備 Phytomedicine 投稿文件與格式修改 | Phytomedicine | 2026-05-15 | 高 | 替代原本的 PSA/EJI 方案 |
 | 下載 IRB 期中報告核准函 (N202304026) | TMU-eJIRB | 2026-05-01 | 中 | 已核准，需存至 100_Research |
 | 撰寫並繳交國科會 114 年度執行績效報告自評表 | 國科會 | 2026-05-08 | 極高 | 已完成「研究創新性」段落草稿 (見 drafts/MOST_114_Innovation_Draft.md) |

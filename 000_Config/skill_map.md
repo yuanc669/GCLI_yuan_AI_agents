@@ -23,6 +23,7 @@
 | `/if-coloc` | IF 共定位 | Cellpose 分割、PCC/Manders 指標計算 |
 | `/mt` | MT 纖維化 | 藍色區域 Area Fraction (CVF%) 計算 |
 | `/pas` | PAS 染色 | 系膜擴張 (Mesangial Area%) 量化 |
+| `/graphify` | 知識圖譜增強 | 使用 GraphRAG 建立專案地圖，優化 Token 並視覺化邏輯鏈 |
 | `/lit-review`| 文獻綜述 | 標準格式（BMRC） |
 
 ## 📧 秘書域（200_Secretary）

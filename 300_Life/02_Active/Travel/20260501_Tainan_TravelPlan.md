@@ -1,11 +1,13 @@
 ---
-type: technical
-category: #travel
-importance: "⭐⭐⭐⭐"
-tags: #tainan #baseball #cpbl #vacation
-status: #active
-weather: "23-29°C, Partly Cloudy"
-traffic_alert: "Labor Day Long Weekend (5/1-5/3)"
+type: Travel
+category: Life
+importance: ⭐⭐⭐⭐
+tags:
+  - Tainan
+  - food
+status: active
+weather: 23-29°C, Partly Cloudy
+traffic_alert: Labor Day Long Weekend (5/1-5/3)
 ---
 
 # [[2026/05/01 台南棒球兩天一夜旅遊規劃]]

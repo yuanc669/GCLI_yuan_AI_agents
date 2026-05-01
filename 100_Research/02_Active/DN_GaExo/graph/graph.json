@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {"id": "GaExo", "type": "Intervention", "label": "大蒜外泌體 (Garlic-derived Exosome)"},
+    {"id": "Myrosinase", "type": "Component", "label": "黑芥子酶 (Myrosinase)"},
+    {"id": "Kineothrix", "type": "Microbiome", "label": "Kineothrix (關鍵差異菌屬)"},
+    {"id": "BUN", "type": "Biomarker", "label": "血尿素氮 (BUN)"},
+    {"id": "TG", "type": "Biomarker", "label": "三酸甘油酯 (TG)"},
+    {"id": "TIS", "type": "Pathology", "label": "腎小管間質損傷評分 (TIS Score)"},
+    {"id": "Kidney_Injury", "type": "Phenotype", "label": "腎損傷 (Kidney Injury)"}
+  ],
+  "edges": [
+    {"source": "GaExo", "target": "Myrosinase", "relation": "CONTAINS", "weight": 1.0},
+    {"source": "Myrosinase", "target": "Kineothrix", "relation": "INDUCES", "weight": 0.85},
+    {"source": "Kineothrix", "target": "BUN", "relation": "NEGATIVE_CORRELATION", "weight": -0.74, "evidence": "Spearman Rho"},
+    {"source": "GaExo", "target": "TG", "relation": "DECREASES", "weight": 0.65},
+    {"source": "GaExo", "target": "TIS", "relation": "IMPROVES", "weight": 0.9},
+    {"source": "TIS", "target": "Kidney_Injury", "relation": "INDICATES", "weight": 1.0},
+    {"source": "BUN", "target": "Kidney_Injury", "relation": "REFLECTS", "weight": 0.9}
+  ],
+  "metadata": {
+    "project": "DN_GaExo",
+    "version": "1.0-alpha-test",
+    "timestamp": "2026-05-01"
+  }
+}

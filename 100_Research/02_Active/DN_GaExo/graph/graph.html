@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>DN_GaExo 知識圖譜分析</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <style type="text/css">
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; }
+        #mynetwork { width: 100%; height: 80vh; border: 1px solid #ddd; background-color: #ffffff; }
+        .controls { padding: 20px; background: #2c3e50; color: white; display: flex; gap: 15px; align-items: center; }
+        input[type="text"] { padding: 8px; border-radius: 4px; border: none; width: 250px; }
+        .legend { padding: 10px; background: #ecf0f1; display: flex; justify-content: center; gap: 20px; font-size: 14px; }
+        .dot { height: 12px; width: 12px; border-radius: 50%; display: inline-block; margin-right: 5px; }
+    </style>
+</head>
+<body>
+
+<div class="controls">
+    <strong>DN_GaExo Knowledge Graph</strong>
+    <input type="text" id="nodeSearch" placeholder="搜尋節點 (如: BUN, Kineothrix)...">
+    <span id="status">點擊節點查看詳細資訊</span>
+</div>
+
+<div class="legend">
+    <span><span class="dot" style="background-color: #e74c3c;"></span>Intervention</span>
+    <span><span class="dot" style="background-color: #f1c40f;"></span>Component</span>
+    <span><span class="dot" style="background-color: #2ecc71;"></span>Microbiome</span>
+    <span><span class="dot" style="background-color: #3498db;"></span>Biomarker</span>
+    <span><span class="dot" style="background-color: #9b59b6;"></span>Pathology</span>
+    <span><span class="dot" style="background-color: #34495e;"></span>Phenotype</span>
+</div>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+    const data_json = {
+        "nodes": [
+            {"id": "GaExo", "group": "Intervention", "label": "大蒜外泌體\n(GaExo)"},
+            {"id": "Myrosinase", "group": "Component", "label": "黑芥子酶\n(Myrosinase)"},
+            {"id": "Kineothrix", "group": "Microbiome", "label": "Kineothrix\n(關鍵菌屬)"},
+            {"id": "BUN", "group": "Biomarker", "label": "血尿素氮\n(BUN)"},
+            {"id": "TG", "group": "Biomarker", "label": "三酸甘油酯\n(TG)"},
+            {"id": "TIS", "group": "Pathology", "label": "腎損傷評分\n(TIS)"},
+            {"id": "Kidney_Injury", "group": "Phenotype", "label": "腎損傷\n(Kidney Injury)"}
+        ],
+        "edges": [
+            {"from": "GaExo", "to": "Myrosinase", "label": "CONTAINS"},
+            {"from": "Myrosinase", "to": "Kineothrix", "label": "INDUCES"},
+            {"from": "Kineothrix", "to": "BUN", "label": "NEGATIVE_CORR (-0.74)", "color": { "color": "#e74c3c" }},
+            {"from": "GaExo", "to": "TG", "label": "DECREASES"},
+            {"from": "GaExo", "to": "TIS", "label": "IMPROVES"},
+            {"from": "TIS", "to": "Kidney_Injury", "label": "INDICATES"},
+            {"from": "BUN", "to": "Kidney_Injury", "label": "REFLECTS"}
+        ]
+    };
+
+    const nodes = new vis.DataSet(data_json.nodes);
+    const edges = new vis.DataSet(data_json.edges);
+
+    const container = document.getElementById('mynetwork');
+    const data = { nodes: nodes, edges: edges };
+    const options = {
+        nodes: {
+            shape: 'dot',
+            size: 25,
+            font: { size: 14, color: '#333' },
+            borderWidth: 2,
+            shadow: true
+        },
+        edges: {
+            width: 2,
+            arrows: { to: { enabled: true, scaleFactor: 1 } },
+            font: { align: 'middle', size: 10 },
+            color: { inherit: 'from' },
+            smooth: { type: 'continuous' }
+        },
+        groups: {
+            Intervention: { color: { background: '#e74c3c', border: '#c0392b' } },
+            Component: { color: { background: '#f1c40f', border: '#f39c12' } },
+            Microbiome: { color: { background: '#2ecc71', border: '#27ae60' } },
+            Biomarker: { color: { background: '#3498db', border: '#2980b9' } },
+            Pathology: { color: { background: '#9b59b6', border: '#8e44ad' } },
+            Phenotype: { color: { background: '#34495e', border: '#2c3e50' } }
+        },
+        physics: {
+            enabled: true,
+            barnesHut: { gravitationalConstant: -2000, centralGravity: 0.3, springLength: 150 }
+        }
+    };
+
+    const network = new vis.Network(container, data, options);
+
+    // 搜尋功能
+    document.getElementById('nodeSearch').addEventListener('input', (e) => {
+        const value = e.target.value.toLowerCase();
+        const foundNode = data_json.nodes.find(n => n.label.toLowerCase().includes(value) || n.id.toLowerCase().includes(value));
+        if (foundNode) {
+            network.focus(foundNode.id, { scale: 1.5, animation: true });
+            network.selectNodes([foundNode.id]);
+        }
+    });
+
+    // 點擊事件
+    network.on("click", function (params) {
+        if (params.nodes.length > 0) {
+            const nodeId = params.nodes[0];
+            const node = data_json.nodes.find(n => n.id === nodeId);
+            document.getElementById('status').innerHTML = `<strong>選中節點:</strong> ${node.label} (${node.group})`;
+        }
+    });
+</script>
+
+</body>
+</html>
