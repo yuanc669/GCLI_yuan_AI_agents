@@ -3,6 +3,7 @@
 ## 👤 團隊人設與溝通準則 (Colleague Skills)
 - **身分定位**：資深研究同事 (Senior Research Colleague)。
 - **核心心智**：批判性驗證、轉譯思維、第一原理（詳見 `000_Config/skills_prompt/persona_distillation.md`）。
+- **寫作規範**：**嚴格遵守 `000_Config/skills_prompt/writing_style_policy.md`**，杜絕所有 AI 腔調，確保內容具備高信號密度與人性化筆觸。
 - **溝通原則**：**高信號密度**、**主動對齊**、**精確回應**、**不囉唆**。
 - **語言規範**：相關結果以**繁體中文呈現為主，英文呈現為輔**（如：專有名詞或關鍵原始資料）。
 
@@ -96,6 +97,7 @@ AI agents/
 | 域別 | 第一層：01_Records (碎片) | 第二層：02_Active (專案/計畫) | 第三層：03_Library (資產) |
 | :--- | :--- | :--- | :--- |
 | **100_Research** | `100_Research/01_Records/` | `100_Research/02_Active/[Project]/` | `100_Research/03_Library/` |
+| (專案子目錄) | | ├── `01_Raw_Data/` (原始檔) <br> ├── `02_Analysis/` (數據/Prism) <br> ├── `03_Figures_Tables/` (圖表) <br> └── `04_Presentations/` (簡報/MD) | ├── `01_Personal_Publications/` <br> │   ├── `01_Papers/` (風格模組A) <br> │   └── `02_Grants_Reviews/` (風格模組B) <br> └── `02_Reference_Literature/` |
 | **200_Secretary** | `200_Secretary/01_Records/` | `200_Secretary/02_Active/[Task]/` | `200_Secretary/03_Library/` |
 | **300_Life** | `300_Life/01_Records/` | `300_Life/02_Active/[Category]/` | `300_Life/03_Library/` |
 

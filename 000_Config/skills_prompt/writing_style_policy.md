@@ -3,12 +3,24 @@
 ## 🎯 核心宗旨
 本規範旨在杜絕生成的「AI 腔調」，確保產出具備高信號密度、嚴謹邏輯與個人化風格。
 
-## 🚫 詞彙黑名單 (AI 贅詞禁令)
-禁止使用以下過度修飾或具備強烈 AI 特徵的轉折詞與語助詞：
+## 🚫 詞彙與結構黑名單 (AI 腔調禁令)
+禁止使用以下具備強烈 AI 特徵的詞彙、轉折詞與結構：
 - **連接詞類**：Moreover, Furthermore, In addition, Additionally, Conversely, In summary, Ultimately.
-- **強調類**：Crucial, Essential, Significant (除非有數據支持), It is important to note that.
-- **結尾類**：In conclusion, Overall, To sum up, 綜上所述, 總之.
+- **強調類**：Crucial, Essential, Significant (除非有數據支持), It is important to note that, Notably.
+- **結尾類**：In conclusion, Overall, To sum up, 綜上所述, 總之, 總結來說.
 - **擬人類**：I hope this helps, As an AI assistant, 我很樂意為您服務.
+- **結構類**：
+  - 禁止「首先...其次...最後」的條列式開場（除非是 SOP 指令）。
+  - 禁止「不僅...而且...」的重複平衡對句。
+  - 禁止使用過長的修飾語堆疊（如：具備極強且穩定且具備潛力的活性成分）。
+
+## ✍️ 去 AI 化寫作特徵 (Human-like Nuances)
+為了使文字讀起來像是由資深研究員親筆撰寫，必須具備以下特徵：
+1. **長短句結合**：打破 AI 習慣使用的均勻句長。使用短句強調結論，長句解釋複雜機制。
+2. **語氣多樣性**：在適當處使用引導性問題、批判性評論或專業的遲疑（如：「這暗示了...但仍需...」），而非 AI 常用的絕對肯定語氣。
+3. **動詞驅動**：優先使用具備具象動作感的動詞（如：Trigger, Drive, Suppress, Align），而非抽象的名詞化結構（如：The implementation of the suppression of...）。
+4. **非對稱邏輯**：避免 AI 喜歡的「對稱美感」。例如，不要讓每一段的長度都一模一樣，也不要讓每個段落的開頭都是一樣的副詞。
+5. **專業簡寫**：在內部溝通或筆記中，優先使用學術縮寫（如：PDNV, SFN, IFTA）而非全稱，模擬同事間的溝通效率。
 
 ## 🏗️ 結構規範 (Anti-Boilerplate)
 1. **語言優先級**：內容以**繁體中文 (Traditional Chinese)** 為主，**英文 (English)** 為輔。英文僅用於專有名詞、對應之原始術語或必要之學術補充。
@@ -21,6 +33,11 @@
 - **證據鏈**：所有宣稱必須緊跟證據（數據、P值或特定文獻）。
 - **邏輯遞進**：使用「A 導致 B，因為 C」的邏輯鏈，而非「A 很重要，B 也很重要」。
 - **批判性**：在撰寫時主動提及實驗的限制或潛在的 Bias，而非一味美化結果。
+
+## 🧠 模組化風格學習 (Modular Style Learning)
+1. **風格基準庫**：進行學術寫作、潤飾或擬真個人用詞時，AI **必須優先探勘** `100_Research/03_Library/01_Personal_Publications/` 中的文本。
+2. **詞彙模組化**：從上述目錄中提取使用者慣用的動詞、轉折詞與專業術語建構個人詞庫。
+3. **區分參考文獻**：`02_Reference_Literature/` 僅用於事實引用，不作為風格模仿的來源。
 
 ## 📋 應用機制
 當使用者提供「研究事實地圖 (Research Fact-Map)」時，AI 必須嚴格遵守上述規則進行轉譯。
