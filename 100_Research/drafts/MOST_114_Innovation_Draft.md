@@ -16,10 +16,15 @@
 *   **創新點**：針對慢性纖維化疾病，開發了負載 **KCF18 三重抑制肽**（同時阻斷 TNF-α/IL-1β/IL-6）的溫敏型 PEG 水凝膠。
 *   **貢獻**：將短肽藥物的半衰期成功延長至 **3.5 天**，並在膀胱出口梗阻 (BOO) 模型中證實早期干預能顯著抑制 TGF-β 誘導的纖維化，為慢性器官損傷提供了長效釋放的臨床新策略。
 
+### 4. 跨領域應用拓展：自體免疫與粒線體保護 (2025-2026 新進展)
+*   **自體免疫 (Psoriasis)**：證明 **miR-100-5p** 為 MSC 外泌體抗乾癬之關鍵組分，透過 **mTOR/S6K1 途徑** 抑制角質細胞增殖 (Huang et al., 2025)。
+*   **急性肺損傷 (Pneumonia)**：確認 let-7i-5p 在吸入性肺炎模型中亦能透過 **TLR4 調節** 改善呼吸功能 (Chuang et al., 2025)。
+*   **粒線體保護 (PQQ)**：首度證實 **PQQ** 能恢復睪丸缺血再灌流模型中的 **粒線體呼吸鏈 (Complex II, IV, V) 活性** 並抑制細胞凋亡 (Syu et al., 2025)。
+
 ## 📈 研究成果對應 (Selected Publications)
-- **Mechanistic Studies**: Vo et al. (2026), Chang et al. (2021)
+- **Mechanistic Studies**: Vo et al. (2026), Chuang et al. (2025), Huang et al. (2025)
 - **Methodology & Delivery**: Syu et al. (2025), Le et al. (2024)
-- **Organ-Specific Application**: Chuang et al. (2025), Shih et al. (2021)
+- **Organ-Specific Application**: Chuang et al. (2025), Syu et al. (2025), Shih et al. (2021)
 
 ---
 *備註：以上內容已整合入 Obsidian 知識庫，可直接引用於正式績效報告清單。*

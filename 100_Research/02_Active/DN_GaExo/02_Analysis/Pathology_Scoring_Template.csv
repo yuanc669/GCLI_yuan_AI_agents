@@ -1,0 +1,11 @@
+Group,Sample_ID,Image_ID,Glomerular_Mesangial_Expansion(0-4),Tubular_Injury(0-4),Interstitial_Inflammation(0-4),Casts(0-4),Notes
+Sham,Sham-1,20251126_sham-1_he_1.jpg,,,,,,
+Sham,Sham-1,20251126_sham-1_he_2.jpg,,,,,,
+Sham10W,Sham-4(10w),20260107_sham-4(10w)_he_1.jpg,,,,,,
+HS2W,HS2W-1,20251126_hs2w-1_he_1.jpg,,,,,,
+HS6W,HS6W-1,20251210_hs6w-1_he_1.jpg,,,,,,
+HS10W,HS10W-1,20260107_hs10w-1_he_1.jpg,,,,,,
+SS10W,SS10W-1,20260121_ss10w-1_he_1.jpg,,,,,,
+HFD10W,HFD10W-1,20260107_hfd10w-1_he_1.jpg,,,,,,
+HS10WGaE9,HS10WGaE9-1,20260121_hs10wgae9-1_he_1.jpg,,,,,,
+HS10WGaE10,HS10WGaE10-1,20260121_hs10wgae10-1_he_1.jpg,,,,,,
