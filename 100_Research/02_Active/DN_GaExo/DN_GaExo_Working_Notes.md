@@ -1,6 +1,32 @@
 # DN_GaExo 專案工作筆記 (Working Notes)
 
-## 📅 2026-05-02 數據分析進度：大蒜外泌體 (GaExo) 多組學整合
+## 🧪 實驗模型與組別定義 (Experimental Model & Groups)
+
+### 1. 誘導與處理 (Induction & Treatment)
+*   **DN 誘導模型**: 高脂飲食 (HFD) + 鏈佐黴素 (STZ) 聯合誘導。
+*   **實驗組別**:
+    *   **Sham**: 正常飲食 (12W 犧牲)。
+    *   **Sham10W**: 正常飲食 (20W 犧牲)，建立老化/時間對照基準。
+    *   **HS2W**: HFD+STZ 誘導後 2 週 (14W 犧牲)。
+    *   **HS6W**: HFD+STZ 誘導後 6 週 (18W 犧牲)。
+    *   **HS10W**: HFD+STZ 誘導後 10 週 (22W 犧牲)，代表末期 DN 狀態。
+    *   **SS10W**: 單純 STZ 誘導 (10週)。
+    *   **HFD10W**: 單純 HFD 誘導 (10週)。
+    *   **HS10WGaE9**: DN 狀態 + 大蒜外泌體劑量 9 (低劑量)。
+    *   **HS10WGaE10**: DN 狀態 + 大蒜外泌體劑量 10 (高劑量)。
+
+### 2. 七大分析路徑 (Seven Analysis Paths)
+1.  **老化基準 (Aging Base)**: Sham vs. Sham10W (12W vs. 20W)。
+2.  **急性誘導 (Acute Induction)**: Sham vs. HS2W。
+3.  **DN 定型 (DN Establishment)**: Sham10W vs. HS10W。
+4.  **病程進展 (Disease Progression)**: Sham, HS2W, HS6W, HS10W。
+5.  **驅動拆解 (Driver Dissection)**: Sham10W, SS10W, HFD10W, HS10W (釐清 HFD 與 STZ 各自貢獻)。
+6.  **藥效評估 (Efficacy Evaluation)**: Sham10W, HS10W, HS10WGaE9, HS10WGaE10 (核心治療路徑)。
+7.  **全景整合 (Global Integration)**: Sham10W, SS10W, HFD10W, HS10W, HS10WGaE9, HS10WGaE10 (全景視角)。
+
+---
+
+## 📅 2026-05-04 數據分析進度：大蒜外泌體 (GaExo) 多組學整合
 
 ### 1. 核心定義修正 (Important Correction)
 *   **GaExo**：大蒜外泌體 (Garlic-derived Exosomes / Nanovesicles)，學名來源為 *Allium sativum*。

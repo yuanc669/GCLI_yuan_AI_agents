@@ -11,32 +11,33 @@ plt.rcParams['axes.unicode_minus'] = False
 # Load data
 df = pd.read_csv(r'100_Research\02_Active\DN_GaExo\02_Analysis\Biochem_Cleaned_Data.csv')
 
-output_dir = r'100_Research\02_Active\DN_GaExo\02_Analysis\Prism_Reports'
-os.makedirs(output_dir, exist_ok=True)
+output_base = r'G:\我的雲端硬碟\GCLI_yuan_AI agents\100_Research\02_Active\DN_GaExo\02_Analysis\06_Prism_Outputs'
 
-# Define Paths
+# Define 7 Specific Comparison Paths
 paths = {
     "Path1_Aging": ["Sham", "Sham10W"],
-    "Path2_Acute": ["Sham", "HS2W"],
-    "Path3_Late": ["Sham", "HS10W"],
-    "Path4_Progression": ["Sham", "HS2W", "HS6W", "HS10W"],
-    "Path5_Drivers": ["Sham10W", "HFD10W", "HS10W"],
-    "Path6_Therapy": ["HS10W", "HS10WGaE9", "HS10WGaE10"]
+    "Path2_Acute_Induction": ["Sham", "HS2W"],
+    "Path3_DN_Establishment": ["Sham10W", "HS10W"],
+    "Path4_Disease_Progression": ["Sham", "HS2W", "HS6W", "HS10W"],
+    "Path5_Driver_Dissection": ["Sham10W", "SS10W", "HFD10W", "HS10W"],
+    "Path6_Efficacy_Evaluation": ["Sham10W", "HS10W", "HS10WGaE9", "HS10WGaE10"],
+    "Path7_Global_Integration": ["Sham10W", "SS10W", "HFD10W", "HS10W", "HS10WGaE9", "HS10WGaE10"]
 }
 
 metrics = ["BUN", "CRE", "AC", "TG", "BodyWeight (g)"]
 
 for path_name, groups in paths.items():
-    path_df = df[df['Group'].isin(groups)].copy()
+    path_dir = os.path.join(output_base, path_name)
+    os.makedirs(path_dir, exist_ok=True)
     
-    # Ensure categorical order for plotting
+    path_df = df[df['Group'].isin(groups)].copy()
     path_df['Group'] = pd.Categorical(path_df['Group'], categories=groups, ordered=True)
     
     # Save CSV for Prism
     for metric in metrics:
-        prism_ready = path_df.pivot(columns='Group', values=metric)
-        # Clean up column names for Prism
-        prism_ready.to_csv(os.path.join(output_dir, f"{path_name}_{metric.split(' ')[0]}_Prism.csv"))
+        metric_short = metric.split(' ')[0]
+        prism_ready = path_df.pivot(index='SampleID', columns='Group', values=metric)
+        prism_ready.to_csv(os.path.join(path_dir, f"{path_name}_{metric_short}_Prism.csv"))
         
     # Generate Plots
     fig, axes = plt.subplots(1, 5, figsize=(25, 5))
@@ -49,7 +50,7 @@ for path_name, groups in paths.items():
         axes[i].set_xlabel("")
         
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-    plt.savefig(os.path.join(output_dir, f"{path_name}_Biochem_Summary.png"))
+    plt.savefig(os.path.join(path_dir, f"{path_name}_Biochem_Summary.png"))
     plt.close()
 
 print("Prism-ready CSVs and Summary Plots generated in 100_Research/02_Active/DN_GaExo/02_Analysis/Prism_Reports")

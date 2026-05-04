@@ -4,91 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "be72b4c07fb40030",
+        "id": "90a195b0713bfbfc",
         "type": "tabs",
         "children": [
           {
-            "id": "a5dba42a0f6aaa3a",
+            "id": "d528a2c9027a631d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path1_Microbiome_Aging_Master_Report.md",
+                "file": "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/01_Reports/20260504_GaNV_miRNA_Consolidated_Master_Report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260502_Path1_Microbiome_Aging_Master_Report"
-            }
-          },
-          {
-            "id": "09bc3c4cab050214",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path2_Microbiome_Acute_Master_Report.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260502_Path2_Microbiome_Acute_Master_Report"
-            }
-          },
-          {
-            "id": "71c9ee61185b5542",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path3_Microbiome_Late_Master_Report.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260502_Path3_Microbiome_Late_Master_Report"
-            }
-          },
-          {
-            "id": "46612d93af0d6d22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path4_Microbiome_TimeCourse_Master_Report.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260502_Path4_Microbiome_TimeCourse_Master_Report"
-            }
-          },
-          {
-            "id": "3158b4e18817e4bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path5_Microbiome_Drivers_Master_Report.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260502_Path5_Microbiome_Drivers_Master_Report"
-            }
-          },
-          {
-            "id": "24b68dd4b8ea8f62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path6_Microbiome_Therapy_Master_Report.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20260502_Path6_Microbiome_Therapy_Master_Report"
+              "title": "20260504_GaNV_miRNA_Consolidated_Master_Report"
             }
           }
         ]
@@ -148,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 536.5
   },
   "right": {
     "id": "6e5b1826ca03d41b",
@@ -274,25 +203,40 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a5dba42a0f6aaa3a",
+  "active": "d528a2c9027a631d",
   "lastOpenFiles": [
-    "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path6_Microbiome_Therapy_Master_Report.md",
+    "100_Research/02_Active/PDNV/02_Analysis/20260504_Ginger_miRNA_Consolidated_Master_Report.md",
+    "100_Research/02_Active/PDNV/02_Analysis/20260504_Garlic_miRNA_Consolidated_Master_Report.md",
+    "100_Research/02_Active/PDNV/02_Analysis/20260504_Kale_miRNA_Consolidated_Master_Report.md",
+    "100_Research/02_Active/PDNV/02_Analysis/Garlic_Master_Integrative_Report.md",
+    "tools/generate_pdnv_miRNA_reports.py",
+    "100_Research/02_Active/PDNV/02_Analysis/Kale_NV_Advanced_Analysis_Report_Final.md",
+    "100_Research/02_Active/PDNV/02_Analysis/Kale_NV_Master_Integrative_Report.md",
+    "100_Research/02_Active/PDNV/02_Analysis/Ginger_Master_Integrative_Report.md",
+    "100_Research/02_Active/PDNV/02_Analysis/Kale_Master_Integrative_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/01_Reports/20260504_GaNV_miRNA_Consolidated_Master_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/01_Reports/20260504_Garlic_NV_Proteomics_Master_Synthesis.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/01_Reports/20260504_GaNV_MultiOmics_Integrated_Interpretation.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/01_Reports/20260504_GaNV_DualTrack_Interpretation_Final.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/01_Reports/20260504_Garlic_NV_Mechanism_Deep_Dive.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/01_Reports/20260504_Garlic_NV_miRNA_Interpretation.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/01_Reports/20260502_Path3_Microbiome_Late_Master_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260504_GaExo_qPCR_Validation_Plan.md",
     "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path5_Microbiome_Drivers_Master_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path4_Microbiome_TimeCourse_Master_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path3_Microbiome_Late_Master_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path6_Microbiome_Therapy_Master_Report.md",
     "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path2_Microbiome_Acute_Master_Report.md",
     "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path1_Microbiome_Aging_Master_Report.md",
-    "100_Research/02_Active/Archive/國科會114年度績效報告_黃俊仁醫師版.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/20260504_GaNV_DualTrack_Interpretation_Final.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260504_Path_Analysis_Visual_Summary.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260504_GaExo_qPCR_Validation_Plan.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260504_DN_GaExo_Validation_Protocol.md",
     "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260504_DN_GaExo_Results_Draft.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/20260504_Garlic_NV_Proteomics_Master_Synthesis.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260504_Path_Analysis_Visual_Summary.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260504_DN_GaExo_Validation_Protocol.md",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/20260504_Garlic_NV_miRNA_Interpretation.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/20260504_Garlic_NV_Mechanism_Deep_Dive.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/20260504_Garlic_NV_Proteomics_Interpretation.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/20260504_GaNV_DualTrack_Interpretation_Final.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/20260225_Biochemistry_Path_Analysis_Master_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/20260504_Garlic_NV_Proteomics_Master_Synthesis.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path1_Aging_Weight_Plot.png",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path2_Acute_Weight_Plot.png",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path4_Progression_Weight_Plot.png",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path5_Drivers_Weight_Plot.png",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path6_Therapy_Weight_Endpoint.png",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_DualTrack_miRNA_Candidates.fasta",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_14-3-3_Stability_Prism.csv",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_Garlic_miRNA_Prism.csv",
@@ -302,25 +246,10 @@
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_KEGG_Enrichment_Summary.csv",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_GO_Enrichment_Summary.csv",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_Top20_Proteins_Report.csv",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_Proteomics_Full_Analysis.csv",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_14-3-3_Stability_Plot.png",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_Garlic_miRNA_Bar.png",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_Top15_Proteins_Bar.png",
     "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_Functional_Pie.png",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_Top10_Proteins_Bar.png",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/20260225_Biochemistry_Path_Analysis_Master_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/20251001_BodyWeight_Path_Analysis_Master_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path6_Therapy_Weight_Endpoint.png",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path5_Drivers_Weight_Plot.png",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path4_Progression_Weight_Plot.png",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path1_Aging_Weight_Plot.png",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/02_Physiology_Biochem/BodyWeight_Analysis/Path2_Acute_Weight_Plot.png",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/01_Microbiome/20260502_Path7_Microbiome_Comprehensive_Master_Synthesis.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/20260504_GaExo_qPCR_Validation_Plan.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/20260504_DN_GaExo_Validation_Protocol.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/20260504_DN_GaExo_Results_Draft.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/20260504_Garlic_NV_Proteomics_Master_Synthesis.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/20260504_Garlic_NV_Mechanism_Deep_Dive.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/20260504_Garlic_NV_Proteomics_Interpretation.md"
+    "100_Research/02_Active/DN_GaExo/02_Analysis/04_GaNV_Characterization/GaNV_Top10_Proteins_Bar.png"
   ]
 }
