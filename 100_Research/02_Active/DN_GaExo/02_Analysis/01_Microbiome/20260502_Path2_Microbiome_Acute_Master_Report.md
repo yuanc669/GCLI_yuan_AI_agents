@@ -1,4 +1,4 @@
-﻿# [20260502] Path 2: 小鼠急性誘導期菌相崩潰完整分析報告 (Master Report)
+# [20260502] Path 2: 小鼠急性誘導期菌相崩潰完整分析報告 (Master Report)
 
 > [!IMPORTANT]
 > **分析對象**: C57BL/6 小鼠 Sham (12W) vs. HS2W (急性誘導 2 週)

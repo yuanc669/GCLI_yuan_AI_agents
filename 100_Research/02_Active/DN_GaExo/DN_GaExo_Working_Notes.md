@@ -17,5 +17,14 @@
 *   **Path 2 (Acute)**：高糖高脂引發 *Duncaniella* 快速崩解，並誘導早期病理菌 *Romboutsia_B*。
 *   **GaExo 介入策略**：利用大蒜外泌體中的 Myrosinase 與 *Allium* miRNA 調節腸道環境，特異性強化保護性菌屬（如 *Kineothrix*），進而降低 BUN 並改善腎損傷。
 
+### 4. 分析檔案目錄優化 (Directory Reorganization)
+*   **位置**：`100_Research/02_Active/DN_GaExo/02_Analysis/`
+*   **分類邏輯**：
+    *   `01_Microbiome/`：腸道菌叢 (16S) 所有 Path 1-7 的分析報告與視覺化圖表。
+    *   `02_Physiology_Biochem/`：體重 (Body Weight) 與生化指標 (Biochemistry) 分析。
+    *   `03_Pathology/`：病理損傷評分 (Pathology Scoring) 數據與模板。
+    *   `04_GaNV_Characterization/`：大蒜外泌體表徵分析（蛋白質組、miRNA、穩定性、功能性）。
+    *   `05_Integrated_Synthesis/`：跨組學整合、驗證協議與結果草稿。
+
 ---
 *記錄者：Gemini CLI (Senior Research Colleague)*

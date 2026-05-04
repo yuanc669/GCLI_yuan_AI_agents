@@ -1,4 +1,4 @@
-﻿# [20260502] Path 3: 小鼠 DN 末期菌相固化與慢性失調 Master Report
+# [20260502] Path 3: 小鼠 DN 末期菌相固化與慢性失調 Master Report
 
 > [!IMPORTANT]
 > **分析對象**: C57BL/6 小鼠 Sham10W (20W) vs. HS10W (末期 10 週)

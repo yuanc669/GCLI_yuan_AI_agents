@@ -1,4 +1,4 @@
-﻿# [20260502] Path 1: 小鼠成年期菌相自然漂移完整分析報告 (Master Report)
+# [20260502] Path 1: 小鼠成年期菌相自然漂移完整分析報告 (Master Report)
 
 > [!IMPORTANT]
 > **分析對象**: C57BL/6 小鼠 Sham (12W) vs. Sham (20W)
