@@ -37,6 +37,7 @@ AI agents/
 | **/brainstorm** | 「我有個想法」 | 引導式問答轉化想法為計畫書 |
 | **/skill-creator** | 「幫我建一個 skill」 | 建立/修改/測試 skill |
 | **/sync** | 「同步 GitHub」 | 觸發 `tools/shutdown.py` |
+| **/visual-ingest** | 「截圖分析」 | 呼叫 ShareX 截圖並分析螢幕內容 |
 
 ### 🔬 研究域 (100_Research)
 | Skill | 觸發方式 | 功能 |

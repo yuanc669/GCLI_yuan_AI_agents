@@ -29,6 +29,7 @@
 ## 🟢 已完成 (Completed)
 | 任務描述 | 完成日期 | 結果摘要 |
 | :--- | :--- | :--- |
+| 撰寫並繳交國科會 114 年度執行績效報告 (黃俊仁版) | 2026-05-04 | 已回覆繳交。最終版存於 Library/01_Personal_Publications/02_Grants_Reviews/114_NSTC_Performance/ |
 | 分析 KJA 審稿意見並補強生存率(Survival Rate)數據 | 2026-05-02 | 已轉投 Phytomedicine |
 | 準備 Phytomedicine 投稿文件與格式修改 | 2026-05-02 | 已轉投 Phytomedicine |
 | 初始化 AI 團隊架構 | 2026-04-28 | 已完成基礎目錄建立與文件歸檔 |
