@@ -7,6 +7,7 @@
 
 ## 📊 數據紀錄
 - [[20260430_GiNV_Proteomics_ALI_Final]]：機制證據 (Protein markers)。
+- [[L7_Lung_Analysis_Report]]：**Lung Microbiome Analysis (IT)** - 包含 Alpha/Beta Diversity 與 Genus Shifts。
 - [[AP_GiNV_Top30_Heatmap_v2.png]]：**Top 30 Heatmap (v2)** - 基於 GiNV_heatmap.csv。
 - [[AP_GiNV_GO_BubblePlot.png]]：**GO Pathway Bubble Plot** - 功能富集視覺化。
 - [[AP_GiNV_Top30_Proteins_Heatmap_v2.csv]]：Heatmap 原始數據 (位於 400_Data/Methodology/)。
