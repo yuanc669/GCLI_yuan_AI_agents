@@ -19,3 +19,4 @@
 ## ✍️ 產出規範
 - **報告語言**：繁體中文為主，專業術語使用英文。
 - **圖表格式**：提供 Prism-ready CSV 以便手動繪圖，並附帶 Python 生成的 PNG 預覽圖。
+- **時間戳記規則**：存放於 `02_Analysis/05_Integrated_Synthesis/` 的所有整合最終報告，其檔案名稱必須以 `YYYYMMDD_` 為前綴 (例如 `20260505_Pathology_Master_Integrated_Report.md`)，且在文件開頭明確標註產出時間 (YYYY-MM-DD HH:MM)。

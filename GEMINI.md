@@ -65,6 +65,8 @@ AI agents/
 | **/grant-writing** | 「幫我寫計畫書」 | 國科會/IRB 計畫書撰寫 |
 | **/paper-review** | 「幫我審論文」 | 論文審稿意見產出 |
 | **/irb-checklist** | 「IRB 要準備哪些」 | IRB 申請文件確認清單 |
+| **/research-planner** | 「研究規劃執行」 | 三階段自主研究：規劃、執行、驗證與合成 (Awesome-LLM-apps) |
+| **/data-analyst** | 「自主數據分析」 | 讀取 CSV/Excel 並自動執行統計檢定與趨勢發現 (Awesome-LLM-apps) |
 
 ### 📧 秘書域 (200_Secretary)
 | Skill | 觸發方式 | 功能 |
@@ -83,6 +85,10 @@ AI agents/
 
 ## 🗺️ 四、任務路由規則 (Routing Rules)
 - **含「論文/數據/分析/計畫書/文獻/實驗」** ➔ **研究域**
+- **複雜研究請求** ➔ **三階遞進法 (Triage-Verify Pattern)**：
+    1. **Triage (分流)**：判斷需本地數據還是外部文獻。
+    2. **Research & Verify (執行與驗證)**：跨來源交叉比對，找出證據矛盾點。
+    3. **Synthesize (合成)**：產出具備高信號密度的最終報告。
 - **含「Email/信件/行程/會議/截止日」** ➔ **秘書域**
 - **含「家庭/健康/財務/生活」** ➔ **生活域**
 - **跨域任務**：先告知影響範圍再分派。

@@ -5,3 +5,6 @@ credentials.json
 __pycache__/
 *.pyc
 .gemini/
+_inbox/*.json
+_inbox/*.toml
+_inbox/screens/
