@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100_Research/02_Active/UUO_rat/method_revision.md",
-                "mode": "preview",
+                "file": "300_Life/02_Active/Travel/20260501_Tainan_TravelPlan.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "method_revision"
+              "title": "20260501_Tainan_TravelPlan"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 561.5
   },
   "right": {
     "id": "6e5b1826ca03d41b",
@@ -171,8 +171,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
             }
           }
         ],
@@ -199,57 +199,56 @@
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "d528a2c9027a631d",
   "lastOpenFiles": [
-    "_inbox/screens/Screenshots/2026-05/WindowsTerminal_ugKu2vKOv2.png",
-    "100_Research/02_Active/UUO_rat/Mitochondrial_Complex_Kits_Info.md",
-    "_inbox/UUO_rat/EN-E-BC-K153-M-Elabscience.pdf",
-    "_inbox/UUO_rat/尚未確認的 681618.crdownload",
-    "_inbox/UUO_rat/EN-E-BC-K152-M-Elabscience.pdf",
-    "_inbox/UUO_rat/尚未確認的 797097.crdownload",
-    "_inbox/UUO_rat/EN-E-BC-K151-M-Elabscience.pdf",
-    "_inbox/UUO_rat/尚未確認的 505155.crdownload",
-    "_inbox/UUO_rat/EN-E-BC-K150-M-Elabscience.pdf",
-    "_inbox/UUO_rat/尚未確認的 632269.crdownload",
-    "_inbox/UUO_rat/EN-E-BC-K149-M-Elabscience.pdf",
-    "_inbox/UUO_rat/尚未確認的 792473.crdownload",
-    "100_Research/02_Active/UUO_rat/method_revision.md",
-    "100_Research/02_Active/UUO_rat/02_Analysis/Method_Revision_Summary.md",
-    "100_Research/02_Active/UUO_rat/02_Analysis/Surgery_Prep_Checklist.md",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-3_pas6.jpg",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-3_pas5.jpg",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-3_pas4.jpg",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-3_pas3.jpg",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-3_pas2.jpg",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-3_pas1.jpg",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-2_pas6.jpg",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-2_pas5.jpg",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-2_pas4.jpg",
-    "100_Research/02_Active/DN_GaExo/01_Raw_Data/PAS/20260107_hs10w-2_pas3.jpg",
-    "100_Research/Personal_Research_Hub.md",
-    "200_Secretary/drafts/20260115_Team_Monthly_Meeting_Invitation.md",
-    "200_Secretary/drafts/20260512_Meeting_Reminder_Notice.md",
-    "200_Secretary/drafts/20260505_NSTC_Meeting_Invitation_Draft.md",
-    "100_Research/02_Active/UUO_TEM_KCF_Gelfoam/02_Analysis/Mitochondria_Scoring_Pilot.md",
-    "100_Research/02_Active/UUO_TEM_KCF_Gelfoam/02_Analysis/TEM_GBM_Podocyte_Analysis_Report.md",
-    "100_Research/02_Active/UUO_TEM_KCF_Gelfoam/02_Analysis/Mitochondria_Analysis_Report.md",
-    "100_Research/02_Active/UUO_TEM_KCF_Gelfoam/02_Analysis/TEM_Image_Manifest_12K.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260505_Pathology_Master_Integrated_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/HE_Pathology_Master_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/Pathology_Master_Integrated_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path1_Aging/02_Results/Path1_Aging_Pathology_Report.md",
+    "000_Orchestrator/Archive/secondgrain_backup_20260429/300_Life/02_Active/Travel/20260501_Tainan_TravelPlan.md",
+    "000_Orchestrator/Archive/secondgrain_backup_20260429/100_Research/02_Active/DN_GaExo/20260429_Experimental_ToDo_List.md",
+    "000_Orchestrator/Archive/secondgrain_backup_20260429/100_Research/02_Active/DN_GaExo/20260429_Full_Analysis_HFD10W_HS10W_HS10WGaE10_HS10WGaE9_SS10W_Sham10W.md",
+    "000_Orchestrator/Archive/secondgrain_backup_20260429/100_Research/01_Records/20260429_KJA_Rejection_Feedback.md",
+    "000_Orchestrator/Archive/secondgrain_backup_20260429/100_Research/01_Records/GiNVBiodistribution.md",
+    "000_Orchestrator/Archive/secondgrain_backup_20260429/100_Research/01_Records/Product_sheet_300493.md",
+    "000_Orchestrator/Archive/secondgrain_backup_20260429/000_Orchestrator/Templates/Daily_Template.md",
+    "000_Orchestrator/Archive/secondgrain_backup_20260429/000_Orchestrator/Daily/2026-04-28.md",
+    "000_Orchestrator/Archive/secondgrain_backup_20260429/000_Orchestrator/Daily/2026-04-29.md",
     "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path2_Acute/02_Results/Path2_Acute_Pathology_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path7_Global/02_Results/Path7_Global_Pathology_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path6_Efficacy/02_Results/Path6_Efficacy_Pathology_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path6_Efficacy/02_Results/Path6_Efficacy_Scoring_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path5_Driver/02_Results/Path5_Driver_Pathology_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path4_Progression/02_Results/Path4_Progression_Pathology_Report.md",
-    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path3_Establishment/02_Results/Path3_Establishment_Pathology_Report.md",
-    "_inbox/DN_GaExo/小鼠糖尿病腎病變病理分析指南.md",
-    "_inbox/AP_GiNV/小鼠糖尿病腎病變病理分析指南.md"
+    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path1_Aging/02_Results/Path1_Aging_Pathology_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/20260506_PAS_Unblinded_Analysis_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/20260506_HE_Path_Integrated_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path6_Efficacy_Brush_Border_Integrity_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path6_Efficacy_Tubular_Cast_Density_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path6_Efficacy_Mesangial_Expansion_Index_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path4_TimeCourse_Brush_Border_Integrity_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path4_TimeCourse_Tubular_Cast_Density_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path4_TimeCourse_Mesangial_Expansion_Index_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path3_Establishment_Brush_Border_Integrity_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path3_Establishment_Tubular_Cast_Density_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path3_Establishment_Mesangial_Expansion_Index_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/06_Prism_Outputs/Path2_Acute_Brush_Border_Integrity_Prism.csv",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260506_PAS_Paths_Full_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260506_Path1-7_MT_Integrated_Master_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260506_Path6_PAS_Pathology_Master_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/20260506_Inbox_PAS_Analysis_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/PAS_Analysis_Automation_Plan.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/MT_Fibrosis_Final_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/20260506_HE_Pathology_Final_Synthesis.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path1_Aging/02_Results/Tubular_Injury_Score_Plot.png",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/Path1_Aging/02_Results/Glomerular_Area_Plot.png",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/03_Pathology/HE_Pathology_Master_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/20260506_HE_Blind_Scoring_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/20260506_HE_Unblinded_Analysis_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/HE_Pathology_Scoring_Plan.md",
+    "400_Data/DN/debug_mask_001.png",
+    "100_Research/02_Active/DN_GaExo/03_Figures_Tables/20260506_PAS_Analysis_Report.md",
+    "100_Research/02_Active/DN_GaExo/02_Analysis/05_Integrated_Synthesis/20260506_Pathology_MT_Fibrosis_Master_Report.md",
+    "_inbox/DN_GaExo/PAS/168.jpg",
+    "_inbox/DN_GaExo/PAS/166.jpg",
+    "_inbox/DN_GaExo/PAS/165.jpg",
+    "_inbox/DN_GaExo/PAS/167.jpg",
+    "_inbox/DN_GaExo/PAS/164.jpg",
+    "_inbox/DN_GaExo/PAS/161.jpg",
+    "_inbox/DN_GaExo/PAS/163.jpg"
   ]
 }
